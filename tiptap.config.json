@@ -1,12 +1,14 @@
 {
   "upstream": "ueberdosis/tiptap-docs",
-  "repository": "lin52025iq/tiptap-docs",
-  "branch": "zh-cn",
+  "repository": "lin52025iq/tiptap-docs-cn",
+  "branch": "translated-zh-cn",
   "sourceLanguage": "en",
   "targetLanguage": "zh-CN",
-  "content": ["src/content/index.mdx", "src/content/editor/getting-started/"],
-  "sidebars": true,
+  "content": ["src/content/index.mdx", "src/content/editor/getting-started/overview.mdx", "src/content/editor/getting-started/install/index.mdx"],
+  "sidebars": false,
   "ui": [
+    "src/content/sidebar.ts",
+    "src/content/editor/sidebar.ts",
     "src/components/layouts/Layout.tsx",
     "src/components/ProductDropdown.tsx",
     "src/components/MobileNavigationDropdown.tsx",

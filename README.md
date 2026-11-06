@@ -1,42 +1,69 @@
-# AI 翻译服务
+# Tiptap 文档中文翻译
 
-独立的 Node.js 翻译项目，私有仓库 `lin52025iq/tiptap-docs-cn`。保留原来的本地 HTTP 服务，并复用同一个翻译函数完成 Tiptap 文档的增量汉化。
+私有仓库：`lin52025iq/tiptap-docs-cn`。复用独立的 Node.js 翻译服务，全部批量翻译在 GitHub Actions 执行，本地不发起批量模型请求。
 
-## Tiptap 自动汉化
+## 分支和发布边界
 
-文档目标为 `lin52025iq/tiptap-docs` 的 `zh-cn`。本工具**不写入文档仓库的 main**，也不添加 Vercel、Workers 或其他部署配置。它在临时目录读取上游 `ueberdosis/tiptap-docs/main`，翻译后在 `zh-cn` 生成一个集成提交；上游有更新时保留其 Git 祖先关系。
+- 本仓库 `main`：自动化脚本、固定提示词、术语表、翻译缓存和进度记录。
+- 本仓库 `translated-zh-cn`：以原生 Tiptap 文档源码为基础生成的中文版本，保留上游历史。
+- `lin52025iq/tiptap-docs`：当前阶段完全不写入，其 `main` 和 `zh-cn` 均保持不动；不触发正式站部署。
 
-首期范围由 `tiptap.config.json` 指定：首页、全部 Editor 入门文档、侧边栏和主要导航。其他正文保留英文。增加范围只需在该文件增加路径。`glossary.json` 维护统一术语。
+以后确认译文后，再单独把译文分支的内容集成到 `tiptap-docs:zh-cn`。本流程不包含跨仓库发布、不保存 Vercel Token、不添加部署配置。
+
+## 如何运行
+
+打开 GitHub → Actions → **同步并翻译 Tiptap 文档** → Run workflow。
+
+- `publish=true`：翻译和全部校验通过后，保存到本仓库 `translated-zh-cn`。
+- `publish=false`：只翻译、校验并保存缓存，不更新译文分支。
+- `refresh_rules=false`：复用原文未变的译文，避免重复请求。
+- `refresh_rules=true`：显式按当前提示词重新处理旧规则版本的译文，会增加请求。
+
+每天北京时间 03:23 定时执行；修改脚本、提示词或翻译范围也会触发。缓存变动不会触发新任务。所有运行串行，不同时消耗模型额度。
+
+## 首轮范围和扩展
+
+`tiptap.config.json` 指定首页、Editor 概述、安装总览、主侧边栏和 Editor 侧边栏，以及导航、目录、复制按钮等主要界面文案。其他正文暂时保留英文。
+
+扩展 MDX 范围：在 `content` 中增加文件或以 `/` 结尾的目录。扩展 TS/TSX 文案：在 `ui` 中增加明确的文件，提取器只选择展示文字和允许的字段，不翻译任意代码字符串。全部侧边栏可以通过 `sidebars=true` 开启。
+
+## 翻译记录在哪里
+
+| 文件 | 用途 |
+| --- | --- |
+| `state/STATUS.md` | 人可读的逐文件完成数量、待处理数量和发布状态 |
+| `state/progress.json` | 机器可读状态、上游 SHA、规则哈希和失败原因 |
+| `state/translations.json` | 源语言、目标语言、原文对应的译文缓存 |
+| `state/published.json` | 最后保存的上游 SHA、译文分支 SHA 和文件哈希 |
+
+Actions 的运行 Summary 也显示进度表；运行中可以在日志查看当前批次。`translated` 表示已有译文，`published` 表示已保存到私有译文分支，不表示已部署正式站。
+
+原文新增或变化才调用模型。同一句文本可以跨文件复用；提示词变化默认不重翻旧译文，并在报告中标明复用旧规则的数量。术语表完整匹配的文案直接采用指定译法。模型名变化不强制清空旧缓存。
+
+成功批次即时写入 Runner 的缓存；正常结束或失败后提交到本仓库 `main`，下次从剩余部分继续。强制取消或 Runner 硬超时时，尚未持久化到仓库的本轮结果可能需要重新处理。
+
+## 固定提示词与额度
+
+`prompts/translation.md` 定义技术文档翻译规则，`prompts/structured.md` 定义结构化文案输出格式；运行时程序加载，模型只接收待译文本、固定规则、术语表和必要上下文，不执行任何 Git 或工具操作。
+
+请求并发固定为 1，起始间隔至少 15 秒；重试同样遵守间隔。队列拥堵和限流进行有限退避，并遵守数值型 Retry-After。该限制覆盖本 Workflow；同一个 Key 在其他服务的调用也会占用额度。
+
+GitHub Actions Secret：`OPENAI_API_KEY`。Actions Variables：`OPENAI_BASE_URL`、`OPENAI_MODEL`。本仓库分支写入使用 GitHub 自动提供的 `GITHUB_TOKEN`，无需个人 Token 或其他仓库的写入密钥。
+
+## 校验和失败处理
+
+MDX 通过语法树提取文字，代码、URL、组件结构和表达式保留。译文按所在上下文转义，重新检查 MDX/TS/JSX 语法并核对代码和链接。英文标题锚点保留；必要适配仅限显式 ID、页面语言和未来中文分支的编辑链接。
+
+翻译或校验失败不更新译文分支。上游适配点改变或译文分支出现人工提交时停止，避免覆盖人工修订。人工修订应先导入缓存并核对发布记录，不能盲目修改状态绕过检查。
+
+本地只读查看范围：
 
 ```powershell
 npm ci --ignore-scripts
 npm run plan
 ```
 
-`plan` 只检查范围和语法，不调用模型。`sync` 批量流程只允许在 GitHub Actions 执行，本地不会调用模型进行批量翻译。使用 GitHub Actions 的“同步并翻译 Tiptap 文档”，支持手动运行和每天北京时间 03:23 定时运行。
-
-GitHub Actions 配置：
-
-| 类型 | 名称 | 用途 |
-| --- | --- | --- |
-| Secret | `OPENAI_API_KEY` | Agnes API Key |
-| Variable | `OPENAI_BASE_URL` | API 基础地址，包含 `/v1`，不包含 `/responses` |
-| Variable | `OPENAI_MODEL` | 模型名称 |
-| Secret | `DOCS_DEPLOY_KEY` | 仅用于目标文档仓库的专用 SSH 写入密钥 |
-
-Workflow 只从本私有仓库的 `main` 执行可信脚本，不由外部 PR 触发。翻译步骤才接收模型密钥，发布步骤才接收目标仓库密钥。发布目标固定为 `zh-cn`；本私有仓库的 `main` 仅记录工具和缓存，与文档仓库 `main` 是两个不同分支。
-
-MDX 使用语法树提取可见文本，模型不生成组件、表达式或链接。译文按上下文类型进行转义并重新解析，原英文章节锚点保留。必要的渲染适配限于显式 ID、页面语言和中文分支的编辑链接。上游适配点发生变化时停止并要求人工核对。
-
-`state/STATUS.md` 展示逐文件完成数量及发布状态，Actions 的运行 Summary 也显示同一份报告。`state/progress.json` 提供机器可读状态，包括失败原因和复用旧规则的数量。`state/translations.json` 保存源语言、目标语言及原文哈希对应的译文；`state/published.json` 记录最后发布的上游提交、目标提交及文件哈希。原文未变时不重新调用模型，没有文件变化时不生成文档提交。失败不发布；已完成缓存会保存，下次继续。首次全量处理按配置的范围执行，后续仍只翻译该范围内的变化。
-
-提示词固定在 `prompts/translation.md` 和 `prompts/structured.md`，运行时自动加载，模型只接收待译内容及必要上下文。默认复用原文未变的译文；修改提示词或术语规则后，可手动勾选 `refresh_rules` 重翻旧规则译文。术语表中的完整匹配词会直接更新，不为无关术语变化重翻全库。
-
-请求串行执行，起始间隔至少 15 秒，重试也遵守间隔。队列拥堵和限流进行有限退避，并遵守数值型 Retry-After。同一个 Key 在其他应用的请求也会占用额度。失败时保存本轮成功缓存，下次继续；Runner 被强制取消时，尚未持久化的本轮结果可能需要重新处理。
-
-如果有人直接修改 `zh-cn`，流程会检测到提交变化并停止，避免覆盖人工修订。应先核对修订，将其导入缓存并更新发布记录后再继续，不能盲目修改状态绕过检查。Workflow 的 `publish=false` 只生成并缓存译文，不更新站点。
-
-推送完成后由现有 Vercel Git 集成自动构建；本项目不保存 Vercel Token，也不调用额外的部署钩子。Vercel 构建失败时生产站点保留上一个成功版本。
+以下为保留的本地 HTTP 服务说明；它与云端批处理复用同一个翻译函数。
 
 ## 启动
 

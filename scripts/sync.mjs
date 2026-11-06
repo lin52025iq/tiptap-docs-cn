@@ -42,13 +42,14 @@ if (!fs.existsSync(path.join(docs, '.git'))) {
   fs.mkdirSync(path.dirname(docs), { recursive: true })
   execFileSync('git', ['clone', '--branch', config.branch, '--single-branch', `https://github.com/${config.repository}.git`, docs], { stdio: 'inherit' })
 }
-if (git('branch', '--show-current') !== 'zh-cn' || config.branch !== 'zh-cn') throw new Error('只允许在 zh-cn 分支组装译文')
+if (git('branch', '--show-current') !== 'translated-zh-cn' || config.branch !== 'translated-zh-cn'
+  || config.repository !== 'lin52025iq/tiptap-docs-cn') throw new Error('当前阶段只允许在私有仓库 translated-zh-cn 分支组装译文')
 if (git('status', '--porcelain')) throw new Error('文档工作区有未提交改动，请先处理')
 git('fetch', `https://github.com/${config.upstream}.git`, 'main')
 const upstreamSha = git('rev-parse', 'FETCH_HEAD')
 const before = git('rev-parse', 'HEAD')
 const published = readJson(publishedPath, null)
-if (published && before !== published.targetSha) throw new Error('zh-cn 包含未导入的人工提交，请先核对并更新翻译记录；不会覆盖人工修改')
+if (published && before !== published.targetSha) throw new Error('译文分支包含未导入的人工提交，请先核对并更新翻译记录；不会覆盖人工修改')
 
 // --plan only reads the chosen source tree; it never calls AI or writes the docs checkout.
 if (args.includes('--plan')) {
@@ -188,7 +189,7 @@ function saveProgress(progress) {
     `状态：${progress.status}；上游：\`${progress.upstreamSha}\``, '',
     `去重文本：${progress.total}；已完成：${progress.completed}；待处理：${progress.pending}`, '',
     `复用旧规则译文：${progress.reusedWithOlderRules}（只有显式选择 refresh_rules 才会重翻）`, '',
-    'translated 表示已有译文；published 表示已推送 zh-cn（Vercel 构建状态需到 Vercel 查看）。', '',
+    'translated 表示已有译文；published 表示已保存到私有仓库 translated-zh-cn，尚未合并到 tiptap-docs 或部署正式站。', '',
     '| 文件 | 完成 / 总数 | 状态 |', '| --- | ---: | --- |',
     ...Object.entries(progress.files).map(([name, file]) => `| ${name} | ${file.completed} / ${file.total} | ${file.status} |`),
   ]

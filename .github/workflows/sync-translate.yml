@@ -1,13 +1,21 @@
 name: 同步并翻译 Tiptap 文档
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/sync-translate.yml'
+      - 'prompts/**'
+      - 'tiptap.config.json'
+      - 'scripts/**'
+      - 'translate.mjs'
   schedule:
     # 03:23 Asia/Shanghai
     - cron: '23 19 * * *'
   workflow_dispatch:
     inputs:
       publish:
-        description: 翻译和语法检查成功后发布到 zh-cn
+        description: 翻译和语法检查成功后保存到当前私有仓库的译文分支
         type: boolean
         default: true
       refresh_rules:
@@ -39,6 +47,14 @@ jobs:
 
       - run: npm ci --ignore-scripts
 
+      - name: 读取当前私有仓库的译文分支
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh auth setup-git
+          mkdir -p .local
+          git clone --branch translated-zh-cn --single-branch https://github.com/lin52025iq/tiptap-docs-cn.git .local/docs
+
       - name: 同步上游并生成中文文件
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
@@ -47,20 +63,14 @@ jobs:
           REFRESH_RULES: ${{ inputs.refresh_rules }}
         run: node scripts/sync.mjs
 
-      - name: 只发布到文档仓库 zh-cn
-        if: github.event_name == 'schedule' || inputs.publish
+      - name: 只保存到当前私有仓库译文分支
+        if: github.event_name != 'workflow_dispatch' || inputs.publish
         env:
-          DOCS_DEPLOY_KEY: ${{ secrets.DOCS_DEPLOY_KEY }}
           GH_TOKEN: ${{ github.token }}
         shell: bash
         run: |
           set -euo pipefail
-          umask 077
-          printf '%s\n' "$DOCS_DEPLOY_KEY" > "$RUNNER_TEMP/docs-deploy"
-          gh api meta --jq '.ssh_keys[] | "github.com " + .' > "$RUNNER_TEMP/github-known-hosts"
-          export GIT_SSH_COMMAND="ssh -i $RUNNER_TEMP/docs-deploy -o IdentitiesOnly=yes -o StrictHostKeyChecking=yes -o UserKnownHostsFile=$RUNNER_TEMP/github-known-hosts"
-          git -C .local/docs remote set-url origin git@github.com:lin52025iq/tiptap-docs.git
-          git -C .local/docs push origin HEAD:refs/heads/zh-cn
+          git -C .local/docs push origin HEAD:refs/heads/translated-zh-cn
           node scripts/sync.mjs --record
 
       - name: 保存增量缓存和发布记录
