@@ -1810,5 +1810,1405 @@
     "sourceLanguage": "en",
     "targetLanguage": "zh-CN",
     "origin": "agnes"
+  },
+  "793554fcfe4ecb082f273541ce0991368e99c677152f114a9da58da2104a92f7": {
+    "source": "Ruby Text",
+    "translation": "Ruby 文本",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "beb103d1c232b0fff26463bb6306c81284549eb66237d0962b35a7ea5bb3223e": {
+    "source": "Strike",
+    "translation": "删除线",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "5254ec0310c391f53752e3f67218ec857c35ef00cc5388fadf681514c73fd3e8": {
+    "source": "Subscript",
+    "translation": "下标",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "13b47341d024d36530ad4b7d93b611be6de7a918d374d1bd12e145b74c1aff0f": {
+    "source": "Superscript",
+    "translation": "上标",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "4ea37981fc47dd99b7ef69ec001846de975f21c318ca8a3eb4f8a17e7046017b": {
+    "source": "Text Style",
+    "translation": "文本样式",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "51f89360cef15bb05d6e0c8645a01f6d22c2ba08c47a1e8ee8b187432932a83a": {
+    "source": "Underline",
+    "translation": "下划线",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "3383e76b3be5ab9eb3988467be28af04118cbc75336b8ce24698e8c5e519ac4c": {
+    "source": "Functionality",
+    "translation": "功能",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "12ad83e98f0225e97c66494cb694fad2165c5c7c44936257bebb92f1b2ebec6e": {
+    "source": "Bubble menu",
+    "translation": "气泡菜单",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "b7feccc9b5372705d9a61d1b467140f85f253c5ccd54d609d7e751bfbc23dd13": {
+    "source": "Character count",
+    "translation": "字符计数",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "9acc4936b0b28d51978be3942bdc2b60511eeee0d6a90418e47aefe437912410": {
+    "source": "Collaboration Caret",
+    "translation": "协作光标",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "f422c73b513015cac1faa73fb670c062243de96e4b61e91537aaffc3e6b3b96a": {
+    "source": "Background Color",
+    "translation": "背景颜色",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "2f739c78e11c5f0e1896abaec5f93537c9c41d6572a5e1c95a941cb70e2ec088": {
+    "source": "Color",
+    "translation": "颜色",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "a1752bfe5b39803b43ed1276282b2e7a3f2ca3f346df3d5476921468959af32d": {
+    "source": "Drag Handle",
+    "translation": "拖拽手柄",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "e718892b4054c47791a53ab1576c9ba361e5d2d7b8089bcf2a7296fbd328ccd5": {
+    "source": "Drag Handle React",
+    "translation": "拖拽手柄 React",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "b9d24c118a1ce1a37ab242a7c9fb6aec32c08996b88d6d8bdc0de3244e1728b3": {
+    "source": "Drag Handle Vue",
+    "translation": "拖拽手柄 Vue",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "d8efa53b1106b6130f21ab98bae599730c337f8bb4068340ad220e5c0483c131": {
+    "source": "Dropcursor",
+    "translation": "放置光标",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "0fcb397c2d02fac8305e39a622c542dc0433a1dd40b4c41062924de7c3ed7827": {
+    "source": "Export",
+    "translation": "导出",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "2bc2555b89b514007d87a37bed0b3d6000ec565af097b44bb1785e604a5b662a": {
+    "source": "File handler",
+    "translation": "文件处理",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "74fe408433109f79047d53d6ae0dc451b2c50b0d1189d3ce13a97a23fe4cd081": {
+    "source": "Find and replace",
+    "translation": "查找和替换",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "897eb6ffd3c08ab6f8c42eaa6a1e937174134c1d5e07a782f91ff330f265b5d0": {
+    "source": "Floating menu",
+    "translation": "浮动菜单",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "9f0c6ae85cf93da178d1acd85d863ba502852a048680dff00f3e4051c5f494b4": {
+    "source": "Focus",
+    "translation": "焦点",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "34390e04d15a742fd63a8a2a091f6f5c65e09ed04dc4d80267d1112b1433bb30": {
+    "source": "Font family",
+    "translation": "字体族",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "50c1020e42481a66e592b633174996d23ea5fe1b0c77753a224e95a3221dde9f": {
+    "source": "Font size",
+    "translation": "字号",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "f1e3ed61f38b87caa690980f653ce78db9199e0e3958095d0179540b0ebaed58": {
+    "source": "Gap cursor",
+    "translation": "空隙光标",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "047311bcec2337ad5a26138ec9baf444e0adffc0f097b5695895e5b5864f433c": {
+    "source": "Invisible characters",
+    "translation": "隐藏字符",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "371f0304f832d4ad98d378a527d013407033f37c1a5f297d39d653e01c9e9152": {
+    "source": "Line Height",
+    "translation": "行高",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "43284e50e5f06ebee84f937f6e2cd509c29b96615678fb09fcb4e24af7c28b03": {
+    "source": "List kit",
+    "translation": "列表套件",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "147fbdc3ace0b4a9b505fcecadcb5d5abbab64c6a41b9fa23ec9c340d6bf026e": {
+    "source": "List Keymap",
+    "translation": "列表快捷键",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "7adb282535942b4c0c2cc72e61f4d204a0e4f927d101e31e5be55f45acd49937": {
+    "source": "Import",
+    "translation": "导入",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "9128b3b6f83f29fda2a91d264aa320177f9f6f15fda3bd40e826d7fdc647072a": {
+    "source": "Paste Handler",
+    "translation": "粘贴处理",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "8d577ca240a6d4a3070f7fc46b8728afd11e6392c82e35617225e9b740744d78": {
+    "source": "Placeholder",
+    "translation": "占位符",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "7e7adfebca82658452cf4ccfc6b3cfc602e2f617ffe9539a4aba26ee03f0734f": {
+    "source": "Starter",
+    "translation": "Starter",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "69a76f70396bf693962245a8d2149177fb2b39ce75cf9c03f4c45495f3611eb1": {
+    "source": "Snapshot Compare",
+    "translation": "快照对比",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "de96e2d9a2bd8e392eb63708ee13dae33f525dc91751644a64bc87d8f2e28e1a": {
+    "source": "Selection",
+    "translation": "选区",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "794dd3cebdf5d37e1b83646edd2f71de40cbae47ad876c33fce6843a3cdbc663": {
+    "source": "Starter kit",
+    "translation": "入门套件",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "0d0f0c8114f12106cb2f68f8dda7afde037d131f93e58de4975668a4484e9886": {
+    "source": "Table kit",
+    "translation": "表格套件",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "2f7ea8b8b9ff457e440a9ccb02a6edb3b67963f60e5b85ddf1d6aedc4a320577": {
+    "source": "Table of contents",
+    "translation": "目录",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "6b3399d0f2ce0c01c7ad3e2e994fe31b9b2a2d2db470d464992e86f044ac4e06": {
+    "source": "TextStyle kit",
+    "translation": "TextStyle 套件",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "c28a6df910797f39247b708f7b796922580d63029534db35083deed2308c53bd": {
+    "source": "Text align",
+    "translation": "文本对齐",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "33f9616da998d342722ce65593386f3030a6366b3256652aba3f063099bc5e92": {
+    "source": "Trailing node",
+    "translation": "尾随节点",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "3726ded31a065016080b969c33ea42141e5da728b06170637ff37cc00b23e246": {
+    "source": "Typography",
+    "translation": "排版",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "1951debbb0274611647c9f72fc2416fc5ea37572ff0421b5cb429c2950f12ed3": {
+    "source": "Undo & Redo History",
+    "translation": "撤销与重做历史",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "3978346587b5d2b1df17201e12a193f09e1deec3fd42d1f09c3eafe82470beea": {
+    "source": "Unique ID",
+    "translation": "唯一 ID",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "b5389030fe393305adda05bde8b1b49e4406535a99d0425b626bc9a2fdc74e5b": {
+    "source": "Custom extensions",
+    "translation": "自定义扩展",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "45bff5270fdbbf6a74a19d018a73eb5789e063562006c71c5686d13c308b1ba0": {
+    "source": "Create new",
+    "translation": "新建",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "323c27cca6854abdf69fe9888e9bcec8f2e1baf6bd2e59218700bbce559334cf": {
+    "source": "Extension API",
+    "translation": "扩展 API",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "b09570a182fd653f71f3aa6304e1303efe3498dc85196d9151c4781300e36d43": {
+    "source": "Node API",
+    "translation": "节点 API",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "666599594bbb037f7192675051d60507f072aaa2bfe5a234a72b27bee189cc0f": {
+    "source": "Mark API",
+    "translation": "标记 API",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "9a6d0985ec467e1982d65c6ff78c0db9cc7bfe5abaa05a5f9ac4fac6fc82990b": {
+    "source": "Extend existing",
+    "translation": "扩展现有",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "5ffbf7e80377e7d921923dde96ade17f161e2bc6759acffe53ffab46d47444ca": {
+    "source": "Node views",
+    "translation": "节点视图",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "3696e3667f2f401af9e7717038c99b60995edb33ae368d4e5ec2d60f8fce7572": {
+    "source": "Javascript",
+    "translation": "JavaScript",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "a10c86a9f2acd703f2b88e1d222db01d6928ea6846bec3516758be1d524be0e4": {
+    "source": "Vue",
+    "translation": "Vue",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "7c1fdc330ed8de9701cd8468be48db9578f55368cfd66a05939f5b5eed107429": {
+    "source": "Mark views",
+    "translation": "标记视图",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "182071d02949b29f21a22d31ef2d626487fee71108b2d04affd9aba3820e738a": {
+    "source": "Core Concepts",
+    "translation": "核心概念",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "ffda4a043b422668a7bd6fc118639a729dbdf29982e5d4fee0cb98f0690b6ff0": {
+    "source": "Nodes and Marks",
+    "translation": "节点与标记",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "0cd15bfaa04119f47c2e4ffc5e4388e087b50125328afe75b74810aefb486b19": {
+    "source": "Schema",
+    "translation": "Schema",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "509a3ce78fb3946ca1a4fd68ec2590bbf9e818d0dfe6be3b30b36937579a3b14": {
+    "source": "Decorations",
+    "translation": "装饰",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "61ead90eb16c92619ee99f5cabd5c16494ade2368ff9d7a2c6428c3d6f29b36b": {
+    "source": "Keyboard shortcuts",
+    "translation": "键盘快捷键",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "77cde6dd1f809136e2f4735f4c71167cea9021a2334626e5b987922cba56feb0": {
+    "source": "Persistence",
+    "translation": "持久化",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "e9a37f12dec27b0c85788ded51a839b09d4fd996e37cb281219fcc9e94274b35": {
+    "source": "Markdown",
+    "translation": "Markdown",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "4e74b4520d6924a05ac569aab57656351a741b5376381da688aebf68913cc48f": {
+    "source": "beta",
+    "translation": "beta",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "5f7d41e104240ca38ad2ec5934bfbd4b572f2a7a9fda30846681d34e519ee0fb": {
+    "source": "Getting Started",
+    "translation": "入门指南",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "780ab7f2599174d89d2ee006864d453b07e2b3e8f83754686d8d564d634fcb47": {
+    "source": "Installation & Setup",
+    "translation": "安装与设置",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "ca930e8d126ad5d0fe2b7e039204a5ab7bfeb3cb41d0c0f36a1f9bab85915b98": {
+    "source": "Basic Usage",
+    "translation": "基本用法",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "a3d0156909955895e686a8432584f2d5dd863d2179ef48a090a8551bdd7ab2ec": {
+    "source": "Advanced Usage",
+    "translation": "高级用法",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "457020e64ade822b59cdde210e5095b90f280bf4f5624f740497dd2f667fe845": {
+    "source": "Custom Tokenizer",
+    "translation": "自定义分词器",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "689c945d332f627addeab0a4e1068ea22f93b9acfb59cd1e7f456c90b01e00d8": {
+    "source": "Custom Parsing",
+    "translation": "自定义解析",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "804a15d5c4628e0bc2132a9e961454816347cc7477f4c9c8be1dbaa1b631ee58": {
+    "source": "Custom Serializing",
+    "translation": "自定义序列化",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "8276cdeb8a49de2e91efdc2c756449bfe6816b7da36417964d9cd24068c6a236": {
+    "source": "Integrate Markdown in your Extension",
+    "translation": "在你的扩展中集成 Markdown",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "067e521d9a3ea7a213710476c20b866643ea3a037d7fad681d216c189648b0c1": {
+    "source": "Create a Highlight Extension",
+    "translation": "创建高亮扩展",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "d2fdceaaeb66f3ea937e0bbd6604a6a9ebbb277d8bd0ced15f0a2e492c9f4e5f": {
+    "source": "Create a Admonition Extension",
+    "translation": "创建提示块扩展",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "fb947076bc5925d7d56f776571473f453aa8bafb69859b12cf202952c9895913": {
+    "source": "Create a Emoji Extension",
+    "translation": "创建表情扩展",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "caab6fb389da5697761e6c0e13d7912a3e32f1dca9c82826db91aa14a37604b4": {
+    "source": "MarkdownManager",
+    "translation": "MarkdownManager",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "4bea4f13461e332743c68dc3721a007a2aa6a00caaa9d02a350bcceb013774ad": {
+    "source": "Glossary",
+    "translation": "术语表",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "cbfe3e6206e1229b6eff890831fe445525f8c3b2b42d11d4df31efe4665ad4ea": {
+    "source": "Whiteboard",
+    "translation": "白板",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "0ee00ec1e7c75adda02642190b38d66dbbcbffdd6a4a178f9039a2d1b72f2005": {
+    "source": "alpha",
+    "translation": "alpha",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "15294dbec19d039e02db4cbd1f4b703ab47b97f43d820d8e9acdbda7c039f48a": {
+    "source": "Stage and camera",
+    "translation": "画布与相机",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "9d5db0fa3e56efa2e271caa98793e4152d85da0f03673caae9e95479463e906f": {
+    "source": "Shapes and tools",
+    "translation": "形状与工具",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "e683077b27453f5e2d4449663cae7c8705c2b14caffa509945fc2b01cd4f3089": {
+    "source": "Arrows",
+    "translation": "箭头",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "426d6ea4015ed4425046c8bae4db327e01c8341acabf66553ed2a38d27c0a394": {
+    "source": "Frames",
+    "translation": "画板",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "50b266b9f50294052e9d765836062cd1b92aab5fbe60af257ea3e77fc78ebb27": {
+    "source": "Doc frames",
+    "translation": "文档画板",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "ab590587c4d7d49365f08d1288a60dc58bd2920e761f56c083b009cbc7ccfdc0": {
+    "source": "Images",
+    "translation": "图片",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "1d01ee43fa6ae14abdac229aa24b98f67e6095aadcf74f8e52706987f6b4e1da": {
+    "source": "Custom shapes",
+    "translation": "自定义形状",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "4d746e88ff2206d670d9fedd27660afe0df9778405e9cad5fede73a6bc0b0934": {
+    "source": "Export and import",
+    "translation": "导出与导入",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "39df77ea23f58f037dfe7c47feaef25fea58cd37c69df7de817dc901045e0ac9": {
+    "source": "Collaboration on the board",
+    "translation": "画布协作",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "a5d2ad7b98b3b071d0a4d62441058f1719da9f04eca2e8c9acc51dae53e331d1": {
+    "source": "Tracked Changes on the board",
+    "translation": "画布修订跟踪",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "c580ffbe6b2c87395005193c79d5d154f23a60d76fcc50a22398ad9725446967": {
+    "source": "Simple whiteboard",
+    "translation": "简易白板",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "cbc4452a62788b4b2cdcf96305ec3c28718d3a73f4534a18900c984470463186": {
+    "source": "Custom shape",
+    "translation": "自定义形状",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "23932219b62968cd005cf966e3d29032a3071a3a8fedc79ece9fcd5f486658e5": {
+    "source": "AI agents",
+    "translation": "AI 智能体",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "b68a54c1f5909affbdbc5c55229684e3af181e7df47051048dd9634d35161d26": {
+    "source": "API",
+    "translation": "API",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "b19024cd16cd163b59c35f6c127674b6e55fb2a34df68991f6d889275b9d72e3": {
+    "source": "Editor instance",
+    "translation": "编辑器实例",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "6aecdf3f8eeeed241e0a8c729adefd19c1962074f518fb2fa5a5f964cc74b7ed": {
+    "source": "Content",
+    "translation": "内容",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "dd0816e8074df5f2432f6ef6002a33e280ca7f47634c932f0d5b6049a3832dd3": {
+    "source": "clearContent",
+    "translation": "clearContent",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "833a9aabab7b53fadf2a57a15bc494b783e3368c7d4094b142aceeed5f163cd4": {
+    "source": "cut",
+    "translation": "cut",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "47997df7adbb9a5ac3159bff1d2d09e1bf1b274455d681f3a68fa5dcf1251464": {
+    "source": "insertContent",
+    "translation": "insertContent",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "10772aed8c0bb63fbe94bfd598bc9f00dbbaf7a8515cf292b6f38ee90ceced06": {
+    "source": "insertContentAt",
+    "translation": "insertContentAt",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "24697434ef5324500a8c24f8274e2474816072af9b7b8c85418238f70ad7f458": {
+    "source": "setContent",
+    "translation": "setContent",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "64a17601914c7d79c2093cadc9bacfbe602b6820e12fc97d9125e75958e9cd5a": {
+    "source": "Nodes & Marks",
+    "translation": "节点与标记",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "909cc8a7a2f23d72f0f1344c1fad37b91ef248602ae026f20422757597b5d114": {
+    "source": "clearNodes",
+    "translation": "clearNodes",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "ca8c4901465e679b514a012253654f14ee26112acb25d1e36600b0a47000a631": {
+    "source": "createParagraphNear",
+    "translation": "createParagraphNear",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "049c39580aa876baae8c8f83695097a34362d7070b50e7072041236eb72619d2": {
+    "source": "deleteNode",
+    "translation": "deleteNode",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "a3a015d588a2f7df8ece9ffcea7bb950995c3fa799777ff1f25d2067385361bd": {
+    "source": "extendMarkRange",
+    "translation": "extendMarkRange",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "ac5a9436068c7fe8aeefdfca53b26e1f3562aa895552b5004b1376b7b0912662": {
+    "source": "exitCode",
+    "translation": "exitCode",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "0a80e20ab93fe584196ae300b836d906f96050a885af373700a8784c7df8ec21": {
+    "source": "joinBackward",
+    "translation": "joinBackward",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "9c31f86b81182dc23d854f05ced4a028a4adbe3d2c65e395c8b8ff06f0ee6a38": {
+    "source": "joinDown",
+    "translation": "joinDown",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "ff0484dbe0c3bb0f04b7ae14330fd278faf76eaec00767133202427d9bcb1b66": {
+    "source": "joinForward",
+    "translation": "joinForward",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "4a62fa86790156cb76fd23612fd13a68e3b9f28cef9f4e755434294338cde440": {
+    "source": "joinTextblockBackward",
+    "translation": "joinTextblockBackward",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "5b772d50056b0e9bfd876d3e217172cdb4a1897f8f93243d3c3897d7e1b3d3c1": {
+    "source": "joinTextblockForward",
+    "translation": "joinTextblockForward",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "ad8508fda2376ed9756273dbbda62f204920df28042250929a886f48e956ec89": {
+    "source": "joinUp",
+    "translation": "joinUp",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "2fdb43294324620cfb87b31fafae549cf13560884baaaa84b24235428d798d8d": {
+    "source": "lift",
+    "translation": "lift",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "517a3313b17818d420ea1cc2038ffd10990f90bfe582f08d85a7bf55d59e7182": {
+    "source": "liftEmptyBlock",
+    "translation": "liftEmptyBlock",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "d2938272cbd5e4df68756a1cf98e825d35ae193c94fc886bcc29d9ea9649c306": {
+    "source": "newlineInCode",
+    "translation": "newlineInCode",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "7c9eb4a89754be267a0fa475366f21897ab2ae80a0ea4d6d46a858951cbca8ae": {
+    "source": "resetAttributes",
+    "translation": "resetAttributes",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "e86a89ec582a14afc1d0acc8337fa08eb8b98a4a90e784295d40a7e22e40c96c": {
+    "source": "setMark",
+    "translation": "setMark",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "7fe5f4901d48708c2ae79c42e94f4a1e85003be2e59b932504b2e0de506a84a0": {
+    "source": "setNode",
+    "translation": "setNode",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "0824f620f1f3b82c7ff7861d4e26b534d8e49763d06f4aea3db9f0a0796ac16d": {
+    "source": "setTextDirection",
+    "translation": "setTextDirection",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "31e7ce93864cb20067c8176927c42a5af1bae3d4014a6a76eeb55d10cce08c98": {
+    "source": "splitBlock",
+    "translation": "splitBlock",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "b20d3051836c49efaf217191cb64da8ebcbfbee0ba680a7b26527936d3cb7b52": {
+    "source": "toggleMark",
+    "translation": "toggleMark",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "2939bfcdcb03b0c9b9057f4767b8b0653864ae39bed4a1825643ca6cb6e2bfc4": {
+    "source": "toggleNode",
+    "translation": "toggleNode",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "74b6944e7cb8159716835c74f842309365d01751f139fcb5ebf85da755c8393d": {
+    "source": "toggleWrap",
+    "translation": "toggleWrap",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "ec3ff6de7b2f1279590ae0a8b05579d7fc5c6e9d5db3a56d88113e65a19100b4": {
+    "source": "undoInputRule",
+    "translation": "undoInputRule",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "31eba8cb682bb004d3d6b4648f9abc2b519ccc96f1842ba41070a296e6563849": {
+    "source": "unsetAllMarks",
+    "translation": "unsetAllMarks",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "682a47e8babc4ecb90bf14253117709a1147be56fe828befc64cd621ae08440f": {
+    "source": "unsetMark",
+    "translation": "unsetMark",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "acc43b7217a79bba74d9550ab600e35899cfff23328246e493ba0fb973dbeba5": {
+    "source": "unsetTextDirection",
+    "translation": "unsetTextDirection",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "85dc211597a351faab359977e4e466d79c3b4aafd05d4e88c9580bd18a75f29b": {
+    "source": "updateAttributes",
+    "translation": "updateAttributes",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "42e1113150f4b08fbfe5185d6af88ece2cb9e8971ab18f9f2df210cbaa152465": {
+    "source": "Lists",
+    "translation": "列表",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "8ffa9806a8643752b44c6771e47eaa9e6c9359f680331386d34c71e23e2da34e": {
+    "source": "liftListItem",
+    "translation": "liftListItem",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "4e3e9f0dae6b33b032670dffbfd710a12d6955a4e689eefdfec45dc8f8034276": {
+    "source": "sinkListItem",
+    "translation": "sinkListItem",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "e827fa4b14ee138ce33cbdca5c1228ba4bd96717d59852a5ce8c6dd4fa1858a3": {
+    "source": "splitListItem",
+    "translation": "splitListItem",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "f93172af98a2d4935dbbff06ea7a5f75b50472366a904562917313ed890c369f": {
+    "source": "toggleList",
+    "translation": "toggleList",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "a6936d4cdfef128f87d34619ad399d508cc3e07cad8c6c6b60ffa3f1ab27ebf7": {
+    "source": "wrapInList",
+    "translation": "wrapInList",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "f85368dc0b80c9292e53bf32e24e1b21f7622d903f27cc6040f75d224b40347f": {
+    "source": "blur",
+    "translation": "blur",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "fbcab807faa082ee2d1e7f2f6563aa61ba1edf28dea35f31e54de2b679e8876d": {
+    "source": "deleteRange",
+    "translation": "deleteRange",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "5d9f6947cd516a8ed8ede3c984e79362ba4086c3d45b83f46910dda4f8e5aa46": {
+    "source": "deleteSelection",
+    "translation": "deleteSelection",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "901d891403c5f9e01cfa606f302832e5b79017e8a5fed414a752c018a3b0ec63": {
+    "source": "enter",
+    "translation": "enter",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "a2be8f4c073a71e08509fe955f0fc1c4e14aaff039f1a2e5730330938d15126d": {
+    "source": "focus",
+    "translation": "focus",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "8ffa2b02996cfc5c04b1093b954294148efd52f67c2c23c9a6927f480681d378": {
+    "source": "keyboardShortcut",
+    "translation": "keyboardShortcut",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "4505d67aa8293ffc12a32c6fd21c66b4f8bee5cd519c69744b6b7ca8a19a123b": {
+    "source": "scrollIntoView",
+    "translation": "scrollIntoView",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "52a78f20aef6a54198916620fc3f459284082ffb6f9503e5db4089461a2690fc": {
+    "source": "selectAll",
+    "translation": "selectAll",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "61217bfc06d595134007b8a78b6e4b7ba9e20d15400d1b331400ff0f19744fd6": {
+    "source": "selectNodeBackward",
+    "translation": "selectNodeBackward",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "d6700c2db8901634b1d4105d151fbf008d40a07c79844b34918ef200f73f529c": {
+    "source": "selectNodeForward",
+    "translation": "selectNodeForward",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "f67955a3c6cdf43f2e1d3090e915770d86ed50c4a0e6463a01657a4151a6c4b3": {
+    "source": "selectParentNode",
+    "translation": "selectParentNode",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "7e4f05cb7280acef7bdca8f3de65ab363bef5617d4390a4c85479ade47bf4922": {
+    "source": "setNodeSelection",
+    "translation": "setNodeSelection",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "14e88976f4b3c002020cddfb38f390ab5def9a88990a1cce5a3d7ac45c7fadbc": {
+    "source": "setTextSelection",
+    "translation": "setTextSelection",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "3623cd9a07ff4ac2be9d9b05db3e0dcf58c9cdbb69151c817182b6b1caada80d": {
+    "source": "forEach",
+    "translation": "forEach",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "2b13714a5dfbfdaffcbbedcf2826b2cc8e3821498bb9a738b6deb081f9b3ad42": {
+    "source": "selectTextblockEnd",
+    "translation": "selectTextblockEnd",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "2e543388398c2632328e18fc04f5fa703c904954824105557aed9eca9dac4876": {
+    "source": "selectTextblockStart",
+    "translation": "selectTextblockStart",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "e14e0f1129e1a3ad174364ca339910d974d35dfbc26d430082c45288cfb6db8d": {
+    "source": "setMeta",
+    "translation": "setMeta",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "71d391faf99aeafd19b6a8a971332debc86f3e3510018b7706b2edebbd34eb3d": {
+    "source": "HTML",
+    "translation": "HTML",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "77401e80ea81573d4e1a9c51cd1a12f8c77e9fe347bbbf3cdb2107fdb14c3213": {
+    "source": "JSX",
+    "translation": "JSX",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "393ffe325880f595ad07f224a33f768eee7f2387b85b659f1b5a1281144fae2a": {
+    "source": "Position",
+    "translation": "位置",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "51c192cee11cb29b54481f722e2120e0d53e3b19fd8c4de801f6d9f057b89d3a": {
+    "source": "Static Renderer",
+    "translation": "静态渲染器",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "6b9865532a72558b14fe628771a101513acea60f6a68478467b1544a1562df69": {
+    "source": "Suggestion",
+    "translation": "建议",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "ad52ab7cc1374d167b035f6efcb046fe604b09f6a1b9f3f5ac8e85b5f863fd08": {
+    "source": "Tiptap for PHP",
+    "translation": "Tiptap for PHP",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "4c02d5a612fe0d7d5dd00b34c3ada3f7aaa8a26a45c1b610004fcb02ea323e0a": {
+    "source": "Node Positions",
+    "translation": "节点位置",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "9cbc1eb6ce3a2f61d1c3290f60896f523371b4b7205b7e4f8cf0ae5f3318b5ce": {
+    "source": "Resizable Node views",
+    "translation": "可调整大小的节点视图",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "46df2f857f8bc2936374f2ed2961e77771c669dd4c5751420b82878fa52c6422": {
+    "source": "Input Rules",
+    "translation": "输入规则",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "e0da6f210b1481bcec2de41d6169e45297ece93522aee41f49cce429991d3dd9": {
+    "source": "Paste Rules",
+    "translation": "粘贴规则",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "b827a8a7f003e65a3a14dc9db351133f8f597ec887d1883106ec5b3fa44d43e8": {
+    "source": "Resources",
+    "translation": "资源",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "ac7cedc654c74ce432ad5b6ea08475b3f6019ec4f8717b98092025aac37e920b": {
+    "source": "Pro license",
+    "translation": "专业版许可",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "aff56d5752c77cdd56c719370d4841a5d6b2090ac43c30e377a921dead80f4e1": {
+    "source": "Tiptap Docs",
+    "translation": "Tiptap 文档",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "df61933217afd9573e4605cc3fbc5f96293da3e04e510b64f8fcbcbc3f8f01ef": {
+    "source": "Tiptap provides a framework to create custom content editors. Explore countless extensible features and handy cloud services.",
+    "translation": "Tiptap 提供创建自定义内容编辑器的框架。探索无数可扩展功能及便捷的云服务。",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "a0fbd8cb1b960c7453e766213f8fe4b76a4889adfe53f5076f37f318b19760d9": {
+    "source": "Build exactly the editor your product needs, start with a lightweight open-source core and expand with fully managed Cloud services and AI extensions.",
+    "translation": "构建您的产品所需的编辑器，从无头开源核心起步，并借助完全托管的云服务扩展。",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "7435a2d052ad6070053cd8d827db850567c42f2750c929ca2f3ffc1cdada8127": {
+    "source": "Use the headless editor and more than 100 extensions directly in your app and add real-time collaboration, comments, AI integrations, file conversion, etc.",
+    "translation": "直接在应用中使用无头编辑器及 100 多个扩展，并添加实时协作、评论、AI 集成、文件转换等功能。",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "bafe26728066e88c63d23b821b73d76cd3f00f62801a757b68247ce9777e02f9": {
+    "source": "Browse by feature",
+    "translation": "按功能浏览",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "7eb2285d1a7ee5e4e3f0e2e2f2aa3f5ef08dc03ab41140e4e6ab20d9af0ba89f": {
+    "source": "Review our docs and examples to learn how to incorporate more advanced Tiptap features into your tech stack.",
+    "translation": "查阅我们的文档和示例，了解如何将更高级的 Tiptap 功能集成到技术栈中。",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "62c7ff5dac8f7c5a327a092af3895cee3a37f421b00cc0696e87ba27f79f533e": {
+    "source": "Headless and framework-agnostic rich text editor based on ProseMirror.",
+    "translation": "基于 ProseMirror 的无头且框架无关的富文本编辑器。",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "95f257d3babf16350c776162f794bb1802b9d78b2cd2265640ff32c435d8e2f9": {
+    "source": "Open source",
+    "translation": "开源",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "a2abbd591a03419709a9e3adcb4ffd361eb82a91d23e4ffc45a08b91a6151906": {
+    "source": "Real-time document editing with offline-first support.",
+    "translation": "支持离线优先的实时文档编辑。",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "bdcb99244396a4e9376c4d01b28672350166334da2ac4e68db8076c91f679d19": {
+    "source": "Cloud",
+    "translation": "云端",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "b166456ec68710350195ad2d2b2a6eda4c404486657e354c062eaf150c6072b2": {
+    "source": "On premises",
+    "translation": "本地部署",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "b49a3e3eceb70db32afa4baf8ab52613f47c072ce20a73961275f910657f454f": {
+    "source": "Smart autocompletion, custom commands, and image generation with OpenAI or your own LLM.",
+    "translation": "智能自动补全、自定义命令，以及使用 OpenAI 或自有 LLM 的图像生成。",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "c13f83e734191f72f8b40aa44dae56aaa5f039e3759123cca8f9aebe5866ab17": {
+    "source": "Custom LLM",
+    "translation": "自定义 LLM",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "d5b4bec99298853f3ae7c7d6a05f13ac489f188916b865b082c95d71469a5c80": {
+    "source": "View example",
+    "translation": "查看示例",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "0b94faeabb43d88c67a25ca7b79a5b4a2e9ad22dba235dbdd527e4b47c63b223": {
+    "source": "Build AI agents that can read, insert, and edit documents with tool definitions or primitives.",
+    "translation": "构建能够读取、插入和编辑文档的 AI 代理，支持工具定义或原语。",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
   }
 }

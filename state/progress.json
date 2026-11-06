@@ -3,8 +3,8 @@
   "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
   "status": "failed",
   "total": 401,
-  "completed": 189,
-  "pending": 212,
+  "completed": 364,
+  "pending": 37,
   "reusedWithOlderRules": 50,
   "files": {
     "src/components/AskAi.tsx": {
@@ -94,22 +94,22 @@
     "src/content/editor/sidebar.ts": {
       "sourceHash": "fef18fca49ac093833dddb6dc28938443f0e8aefe21118be06289ae016ee2ba9",
       "total": 263,
-      "completed": 99,
-      "pending": 164,
-      "status": "pending"
+      "completed": 263,
+      "pending": 0,
+      "status": "translated"
     },
     "src/content/index.mdx": {
       "sourceHash": "3b596319bf51c33d97f33302a2cfe00e8bb83e86156957e5a9a60ef8a2bb804f",
       "total": 96,
-      "completed": 44,
-      "pending": 52,
+      "completed": 69,
+      "pending": 27,
       "status": "pending"
     },
     "src/content/sidebar.ts": {
       "sourceHash": "97c3ef64993ebb3d66c751698f42179cb2024e564a35b0fc3bc9b838276095fd",
       "total": 28,
-      "completed": 15,
-      "pending": 13,
+      "completed": 18,
+      "pending": 10,
       "status": "pending"
     },
     "src/mdx-components.tsx": {
@@ -141,5 +141,5 @@
       "status": "translated"
     }
   },
-  "error": "Unexpected token '`', \"```json\n{\"\"... is not valid JSON"
+  "error": "模型服务请求失败（HTTP 500）：Failed to reach upstream, please retry later (request id: 20261106080619460329059TIWIaUgJ)"
 }
