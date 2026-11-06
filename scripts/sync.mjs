@@ -42,11 +42,11 @@ if (!fs.existsSync(path.join(docs, '.git'))) {
   fs.mkdirSync(path.dirname(docs), { recursive: true })
   execFileSync('git', ['clone', '--branch', config.branch, '--single-branch', `https://github.com/${config.repository}.git`, docs], { stdio: 'inherit' })
 }
-if (git('branch', '--show-current') !== 'translated-zh-cn' || config.branch !== 'translated-zh-cn'
-  || config.repository !== 'lin52025iq/tiptap-docs-cn') throw new Error('当前阶段只允许在私有仓库 translated-zh-cn 分支组装译文')
+if (git('branch', '--show-current') !== 'zh-cn' || config.branch !== 'zh-cn'
+  || config.repository !== 'lin52025iq/tiptap-docs-cn') throw new Error('当前阶段只允许在私有仓库 zh-cn 分支组装译文')
 if (git('status', '--porcelain')) throw new Error('文档工作区有未提交改动，请先处理')
-git('fetch', `https://github.com/${config.upstream}.git`, 'main')
-const upstreamSha = git('rev-parse', 'FETCH_HEAD')
+if (args.includes('--plan')) git('fetch', `https://github.com/${config.upstream}.git`, 'main')
+const upstreamSha = git('rev-parse', args.includes('--plan') ? 'FETCH_HEAD' : 'refs/remotes/origin/source')
 const before = git('rev-parse', 'HEAD')
 const published = readJson(publishedPath, null)
 if (published && before !== published.targetSha) throw new Error('译文分支包含未导入的人工提交，请先核对并更新翻译记录；不会覆盖人工修改')
@@ -122,7 +122,7 @@ try {
           if (wait) await new Promise(resolve => setTimeout(resolve, wait))
           nextRequestAt = Date.now() + 15_000
           const output = await translate({ sourceLanguage: config.sourceLanguage, targetLanguage: config.targetLanguage, content: JSON.stringify({ items: requestItems }), glossary, structured: true })
-          const result = JSON.parse(output)
+          const result = JSON.parse(output.trim().replace(/^```(?:json)?\s*\n([\s\S]*?)\n```$/, '$1'))
           if (!Array.isArray(result.items) || result.items.length !== items.length
             || result.items.some((item, i) => item.id !== requestItems[i].id || typeof item.text !== 'string' || !item.text.trim())) {
             throw new Error('模型返回的文本数量、ID 或译文无效')
@@ -159,6 +159,7 @@ try {
   }
   git('add', '--all')
   const changed = git('diff', '--cached', '--name-only')
+  if (git('ls-files') !== git('ls-tree', '-r', '--name-only', upstreamSha)) throw new Error('译文文件清单与 source 不一致，拒绝保存')
   let targetSha = before
   const inherited = spawnSync('git', ['merge-base', '--is-ancestor', upstreamSha, before], { cwd: docs }).status === 0
   if (changed || !inherited) {
@@ -189,7 +190,7 @@ function saveProgress(progress) {
     `状态：${progress.status}；上游：\`${progress.upstreamSha}\``, '',
     `去重文本：${progress.total}；已完成：${progress.completed}；待处理：${progress.pending}`, '',
     `复用旧规则译文：${progress.reusedWithOlderRules}（只有显式选择 refresh_rules 才会重翻）`, '',
-    'translated 表示已有译文；published 表示已保存到私有仓库 translated-zh-cn，尚未合并到 tiptap-docs 或部署正式站。', '',
+    'translated 表示已有译文；published 表示已保存到本仓库 zh-cn，尚未合并到 tiptap-docs 或部署正式站。source 与上游一致，zh-cn 文件清单与 source 一致。', '',
     '| 文件 | 完成 / 总数 | 状态 |', '| --- | ---: | --- |',
     ...Object.entries(progress.files).map(([name, file]) => `| ${name} | ${file.completed} / ${file.total} | ${file.status} |`),
   ]

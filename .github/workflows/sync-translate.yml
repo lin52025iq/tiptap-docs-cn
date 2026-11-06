@@ -47,13 +47,12 @@ jobs:
 
       - run: npm ci --ignore-scripts
 
-      - name: 读取当前私有仓库的译文分支
+      - name: 同步 source 并对齐 zh-cn 文件结构
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
           gh auth setup-git
-          mkdir -p .local
-          git clone --branch translated-zh-cn --single-branch https://github.com/lin52025iq/tiptap-docs-cn.git .local/docs
+          node scripts/prepare.mjs
 
       - name: 同步上游并生成中文文件
         env:
@@ -70,7 +69,7 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          git -C .local/docs push origin HEAD:refs/heads/translated-zh-cn
+          git -C .local/docs push origin HEAD:refs/heads/zh-cn
           node scripts/sync.mjs --record
 
       - name: 保存增量缓存和发布记录
