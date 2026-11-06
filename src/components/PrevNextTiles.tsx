@@ -63,7 +63,7 @@ function Card({ href, title, isNext }: { href: string; title: string; isNext?: b
     >
       {!isNext ? <ArrowLeftIcon className="size-5 flex-none" /> : null}
       <span className="flex flex-col gap-2 flex-1">
-        <span className="text-sm text-grayAlpha-500">{isNext ? 'Next up' : 'Previously'}</span>
+        <span className="text-sm text-grayAlpha-500">{isNext ? "接下来" : "上一篇"}</span>
         <span className="text-lg font-semibold">{title}</span>
       </span>
       {isNext ? <ArrowRightIcon className="size-5 flex-none" /> : null}

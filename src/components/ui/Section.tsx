@@ -3,14 +3,15 @@ import { ArrowRightIcon } from 'lucide-react'
 import { Button } from './Button'
 
 export type SectionProps = {
+  id?: string
   title: string
   description?: string
   children: React.ReactNode
   moreLink?: { label: string; url: string }
 }
 
-export const Section = ({ children, title, description, moreLink }: SectionProps) => {
-  const titleSlug = slugify(title, { lower: true })
+export const Section = ({ children, title, description, moreLink, id }: SectionProps) => {
+  const titleSlug = id ?? slugify(title, { lower: true })
 
   return (
     <section className="mt-10">

@@ -8,5 +8,5 @@ export const cn = (...classes: (string | undefined)[]) => {
 export const getRepoBase = () => {
   const repo = process.env.NEXT_PUBLIC_REPO || 'ueberdosis/tiptap-docs'
   const base = process.env.NEXT_PUBLIC_REPO_BASE || '/src'
-  return `${repo}/blob/main${base.replace(/\/$/, '')}`
+  return `${repo}/blob/zh-cn${base.replace(/\/$/, '')}`
 }

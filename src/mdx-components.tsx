@@ -16,7 +16,7 @@ const getHeadlineId = (children: React.ReactNode) => {
       text += child
     }
     if (typeof child === 'object' && React.isValidElement(child)) {
-      text += getHeadlineId(child.props.children)
+      text += child.props['data-original-heading-id'] ?? getHeadlineId(child.props.children)
     }
   })
   return children ? `${slugify(text, { strict: true, lower: true })}` : ''
