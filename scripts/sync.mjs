@@ -106,7 +106,7 @@ try {
   const batches = []
   let batch = [], length = 0
   for (const item of pendingTexts.values()) {
-    if (batch.length && (batch.length >= 25 || length + item.text.length > 3500)) { batches.push(batch); batch = []; length = 0 }
+    if (batch.length && (batch.length >= 10 || length + item.text.length > 2500)) { batches.push(batch); batch = []; length = 0 }
     batch.push(item); length += item.text.length
   }
   if (batch.length) batches.push(batch)
@@ -122,10 +122,15 @@ try {
           if (wait) await new Promise(resolve => setTimeout(resolve, wait))
           nextRequestAt = Date.now() + 15_000
           const output = await translate({ sourceLanguage: config.sourceLanguage, targetLanguage: config.targetLanguage, content: JSON.stringify({ items: requestItems }), glossary, structured: true })
-          const result = JSON.parse(output.trim().replace(/^```(?:json)?\s*\n([\s\S]*?)\n```$/, '$1'))
+          let result
+          try {
+            result = JSON.parse(output.trim().replace(/^```(?:json)?\s*\n([\s\S]*?)\n```$/, '$1'))
+          } catch {
+            throw Object.assign(new Error('模型返回的 JSON 格式无效，本批次不计为完成'), { retryable: true })
+          }
           if (!Array.isArray(result.items) || result.items.length !== items.length
             || result.items.some((item, i) => item.id !== requestItems[i].id || typeof item.text !== 'string' || !item.text.trim())) {
-            throw new Error('模型返回的文本数量、ID 或译文无效')
+            throw Object.assign(new Error('模型返回的文本数量、ID 或译文无效'), { retryable: true })
           }
           result.items.forEach((item, i) => { cache[items[i].id] = { source: items[i].text, translation: item.text.trim(), rulesHash, sourceLanguage: config.sourceLanguage, targetLanguage: config.targetLanguage, origin: 'agnes' }; pendingTexts.delete(items[i].id) })
           writeJson(cachePath, cache)
@@ -135,7 +140,7 @@ try {
         } catch (error) {
           if (attempt >= 3 || (!error.retryable && error.name !== 'TimeoutError')) throw error
           const delay = Math.max(30 * 2 ** attempt, error.retryAfter || 0)
-          console.log(`模型队列拥堵或超时，${delay} 秒后重试批次 ${number + 1}`)
+          console.log(`模型临时失败或输出格式无效，${delay} 秒后重试批次 ${number + 1}`)
           await new Promise(resolve => setTimeout(resolve, delay * 1000))
         }
       }
