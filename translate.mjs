@@ -32,7 +32,7 @@ export async function translate({ sourceLanguage, targetLanguage, content, gloss
       : ''
     throw Object.assign(new Error(`模型服务请求失败（HTTP ${response.status}）：${detail}`), {
       status: 502,
-      retryable: [429, 503].includes(response.status) || detail.includes('request queue is full'),
+      retryable: response.status === 429 || response.status >= 500 || detail.includes('request queue is full'),
       retryAfter: Number(response.headers.get('retry-after')) || 0,
     })
   }

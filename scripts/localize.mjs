@@ -79,8 +79,8 @@ export function extract(source, filename) {
       const start = node.position.start.offset
       const prefix = source.slice(start).match(/^#{1,6}\s+/)?.[0]
       if (!prefix) throw new Error(`不支持的标题语法：${filename}，请人工处理`)
-      edits.push({ start, end: start + prefix.length, literal: `<h${node.depth} id="${html(slugify(text, { strict: true, lower: true }))}">` })
-      edits.push({ start: node.position.end.offset, end: node.position.end.offset, literal: `</h${node.depth}>` })
+      edits.push({ start, end: start + prefix.length, literal: `${prefix}<span data-original-heading-id="${html(slugify(text, { strict: true, lower: true }))}">` })
+      edits.push({ start: node.position.end.offset, end: node.position.end.offset, literal: '</span>' })
     }
     if (node.type === 'mdxJsxFlowElement' || node.type === 'mdxJsxTextElement') {
       for (const attr of node.attributes ?? []) {
@@ -144,7 +144,7 @@ export function adapt(filename, source) {
     if (actual !== count) throw new Error(`上游适配点已变化：${filename}，需要人工检查`)
     source = source.replaceAll(from, to)
   }
-  if (filename === 'src/mdx-components.tsx') replace('const id = getHeadlineId(children)', 'const id = props.id ?? getHeadlineId(children)', 6)
+  if (filename === 'src/mdx-components.tsx') replace('text += getHeadlineId(child.props.children)', "text += child.props['data-original-heading-id'] ?? getHeadlineId(child.props.children)")
   if (filename === 'src/components/ui/Section.tsx') {
     replace('  title: string', '  id?: string\n  title: string')
     replace('({ children, title, description, moreLink }: SectionProps)', '({ children, title, description, moreLink, id }: SectionProps)')
@@ -164,7 +164,7 @@ export function checkSyntax(filename, source, original) {
         if (['code', 'inlineCode', 'mdxjsEsm', 'mdxFlowExpression', 'mdxTextExpression'].includes(node.type)) values.push([node.type, node.value])
         if (['link', 'image', 'definition'].includes(node.type)) values.push([node.type, node.url])
         for (const attr of node.attributes ?? []) {
-          if (attr.type === 'mdxJsxAttribute' && !attributes.has(attr.name) && attr.name !== 'id') {
+          if (attr.type === 'mdxJsxAttribute' && !attributes.has(attr.name) && !['id', 'data-original-heading-id'].includes(attr.name)) {
             values.push([attr.name, typeof attr.value === 'string' ? attr.value : attr.value?.value])
           }
         }
