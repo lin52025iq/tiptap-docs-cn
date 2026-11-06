@@ -1,5 +1,82 @@
 {
   "upstreamSha": "1382bbae17fda8b38ba9f99183a9f47a27d57a0d",
-  "targetSha": "1382bbae17fda8b38ba9f99183a9f47a27d57a0d",
-  "files": {}
+  "targetSha": "523285c088e639eebbbfaf8657543d6536230016",
+  "files": {
+    "src/components/AskAi.tsx": {
+      "sourceHash": "9ebec69932ab80b50898364925505d7d7f1589b54db2b653acb379b698ae3bfc",
+      "targetHash": "866ee05fa79c51e9b62d6843290ca2fbb30b9c74524367f20c0f463fb3f5502d"
+    },
+    "src/components/CopyMarkdownButton.tsx": {
+      "sourceHash": "fc8d74b31961f10ab3e522c2c255966df355aadf07d85aa0c265f50f5ac35993",
+      "targetHash": "46b22d889fabb574023d7f8dc09b8989cbec6165dbcf212b9f0e08b1a205441c"
+    },
+    "src/components/MobileNavigationDropdown.tsx": {
+      "sourceHash": "3e6f93a4459aa479f0dd43f1f0d53d8b73c644d302200a024dc746ae1bc0f69f",
+      "targetHash": "a23271e107e81de859ff208693a8b3035d142a28e5b46377c8d9f97b1e4f165a"
+    },
+    "src/components/PrevNextTiles.tsx": {
+      "sourceHash": "c59560f6cdac72f0592b620a94df16dfbb218def9fb532bc235e67fbf168067b",
+      "targetHash": "8897aa62415e671f743bb58ca356e57c8352733d48b77719cd7cc22a2a72c9af"
+    },
+    "src/components/ProductCard.tsx": {
+      "sourceHash": "a175f864241abefb715bff04fecf7d64248f80b45252b214e2d9db9cf91a8095",
+      "targetHash": "f82967ed162ad87bf40f64ed113be126fe893ffe59b6504ff352e0770588bfa2"
+    },
+    "src/components/ProductDropdown.tsx": {
+      "sourceHash": "6503c3069129a126deae5ed12af29f855572c14b3ca846c4fe58b91b91bbc74f",
+      "targetHash": "44e8059c0dda51917047854707b8640112fa30b79fca818b26aac22d8b4ccf65"
+    },
+    "src/components/SearchButton.tsx": {
+      "sourceHash": "605d1e75b639649086567fe44a981e252d2a1f940dc341125ca4fec71bbe3398",
+      "targetHash": "9ef6b951429111b831f410a7c0a8d296afebc41aa6a863515f874ef0da4d0a6a"
+    },
+    "src/components/TableOfContent.tsx": {
+      "sourceHash": "97bd228454b431fad19d23613b41963f61660e986db6cdcba87e9c16540b1cbf",
+      "targetHash": "806a121b08fb1f2f02b0b1fd550d44389284e6f1362470b50f73d22a897807bb"
+    },
+    "src/components/layouts/Layout.tsx": {
+      "sourceHash": "f961a2f09623bc3ee40cbfa7e066c84364d8ca1898bcc6a05c793bc21e4bc67d",
+      "targetHash": "96ab8edf90809e4fce2be6afcab810ec5afc074599fbad2198886fdb731f5f37"
+    },
+    "src/components/ui/PageEditStatus.tsx": {
+      "sourceHash": "a8161f25a656822b38ec371721532a1ef9740e38d4db57e0641a207d655c197f",
+      "targetHash": "be38ff0ad0dbb08d42e1a96b6bde291b60df161ce1e33712202fbd798f69cd25"
+    },
+    "src/content/editor/getting-started/install/index.mdx": {
+      "sourceHash": "dfe67893ccb9084a196d7fa7da7f9b5e6dd43142dbbde1699514fe7427e19ee2",
+      "targetHash": "72d91c8467a02de2520143cfd3a1763ed7e205f75784b9af60716c6e5ffffe8d"
+    },
+    "src/content/editor/getting-started/overview.mdx": {
+      "sourceHash": "26630dcc239468a9b3dab2811803634c21704975af4590ef4c04cd95b9c18ca6",
+      "targetHash": "059c6eadc8e2abb8c941a2f397d23bf740bb256253e597ecd5c1bb5782835ee5"
+    },
+    "src/content/editor/sidebar.ts": {
+      "sourceHash": "fef18fca49ac093833dddb6dc28938443f0e8aefe21118be06289ae016ee2ba9",
+      "targetHash": "06373a80f28242886efd9db45bf6eca0210c2bf27d68f436f9afacac3665dba3"
+    },
+    "src/content/index.mdx": {
+      "sourceHash": "3b596319bf51c33d97f33302a2cfe00e8bb83e86156957e5a9a60ef8a2bb804f",
+      "targetHash": "9d3a461a4d7a83b64b55e0b42838b6366f4bb6857e8b3c48c210310243492ebf"
+    },
+    "src/content/sidebar.ts": {
+      "sourceHash": "97c3ef64993ebb3d66c751698f42179cb2024e564a35b0fc3bc9b838276095fd",
+      "targetHash": "1eb8d3f68f65289a683b047745c1397a0027aa16b40ecf9c149d2ea924476d02"
+    },
+    "src/mdx-components.tsx": {
+      "sourceHash": "86d077488a8d07eacfc8d8e0671b4bc6361e12ed69a170c67ea4cb02d8f30dc7",
+      "targetHash": "4ff5f415a5b4ef7400f0a787192a2c10b49cf2441e70e5d8eb5f2b34b722e7a0"
+    },
+    "src/components/ui/Section.tsx": {
+      "sourceHash": "9b0d339c5377cc0212752b9d931567f8655e20a3a07ae9f4027ea2d2f5e83f15",
+      "targetHash": "b0e5eb7f04f879dae9c93f9337b4ef4c2b4643bb0032ab618f6d9daccdc6b104"
+    },
+    "src/app/layout.tsx": {
+      "sourceHash": "6739d60d4acb846dd004bf17115e755ab4daa5a3e7e7f73e9d1427a6f96d1093",
+      "targetHash": "a69ed057fbf9660e3c5e5043534d6d836c75cf4c1ff86f271217155bc0bbb28b"
+    },
+    "src/utils/index.ts": {
+      "sourceHash": "c46268e42cfcfea8348f75fd977f0df0a7dc7c33dba5e1dec4818ce61ebe189d",
+      "targetHash": "e0d9b5a1a3ed67031c99ea2df75ad0c48b682c950d6a3fa9d5a7ce2e42ec981c"
+    }
+  }
 }

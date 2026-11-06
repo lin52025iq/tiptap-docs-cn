@@ -3210,5 +3210,301 @@
     "sourceLanguage": "en",
     "targetLanguage": "zh-CN",
     "origin": "agnes"
+  },
+  "d4eb05449a70a833d5f62880ae82dc8c3d6b4a8b3dd29f8df3eddc01feb995f4": {
+    "source": "Add comments to your editor and moderate them with the Comments REST API.",
+    "translation": "为您的编辑器添加评论，并使用评论 REST API 进行审核管理。",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "f2d2abe1de97a3485bba7a1c0f89aca6c903cb8b0ddf7114968416c049257da3": {
+    "source": "Manage and manipulate documents in your frontend or server-side.",
+    "translation": "在前端或服务器端管理和操作文档。",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "b640e49b8099cb40be04e3d37f11ff0ae5f0e2d513c9d709ee201c2b72613d1b": {
+    "source": "Import and export DOCX and other file types in your Editor or REST API",
+    "translation": "在编辑器或 REST API 中导入和导出 DOCX 及其他文件类型",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "35eb0137791132d65fe3e8f1caed402fb5d98b185847760dd8b602c471319c63": {
+    "source": "Get started with a template",
+    "translation": "使用模板快速入门",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "1cb423fecc958ce348e7d280cfb5a279e0f8eab3155e89f5747771c22145181d": {
+    "source": "Integrate the Tiptap Editor into your application with our editor templates or pick and choose your own UI components. Once integrated you can extend it with more headless Tiptap extensions and custimze it to your liking.",
+    "translation": "通过我们的编辑器模板将 Tiptap 编辑器集成到您的应用中，或自行挑选 UI 组件。完成集成后，您可以使用更多无头 Tiptap 扩展进行增强，并按喜好自定义。",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "e2fa301b8b71b03d0142dc9a40ab8b4122cb4ff233610026bed90c47328b85c3": {
+    "source": "Integrate or deploy Tiptap Cloud",
+    "translation": "集成或部署 Tiptap Cloud",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "4dfce28125a476e8c59f43e115283f7c13f6a571afe3c4ed31da016f6e66c3ed": {
+    "source": "Integrate Tiptap Cloud services into your environment or deploy our on-premises variant within your own infrastructure. Choose the solution that best fits your performance, management, and scalability requirements.",
+    "translation": "将 Tiptap Cloud 服务集成到您的环境中，或在您的基础设施内部署我们的本地部署版本。选择最适合您性能、管理和可扩展性需求的解决方案。",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "de18918b14a7473a09fe30d90404f3ada01426b2fa407d9f18d301ce6f49824b": {
+    "source": "Integrate our cloud service tested everyday by hundreds of thousands of users.",
+    "translation": "集成我们的云服务，该服务每天由数十万用户测试。",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "28ee7725f72b9416c1f46fddf0d7899aa097bc47673da1f447d7970a4e5fe537": {
+    "source": "Dedicated Cloud",
+    "translation": "专用云",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "c3b094735ef8a2367cfea40fafa58c55161f567447278b23f2eea7348742921e": {
+    "source": "Access a dedicated server, optimized for handling larger projects and higher loads.",
+    "translation": "访问专用服务器，专为处理大型项目和高负载而优化。",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "c7d3d93478bf0fcfb7e51fadd09b34ee49a8533715f026010343bd4f7488d47a": {
+    "source": "On-Premises",
+    "translation": "本地部署",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "2173cc9cff8fd5f9c5a4e6d631ba3572191bd0d5fc9a0f15fdfe89baf552480f": {
+    "source": "Implement Tiptap Cloud using Docker Images on your own servers.",
+    "translation": "在自有服务器上通过 Docker 镜像实现 Tiptap Cloud。",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "eb9c6868ea6533d5adf05aa1036ee5d3a5439beeab3fdb887d5db4d33d423bba": {
+    "source": "Try every Tiptap feature free for 30 days",
+    "translation": "免费试用 Tiptap 所有功能 30 天",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "9dcd258f3adb6575ec497bbd5bfa8c092e7044ff0e75cd9648a8a9ca7dadf74a": {
+    "source": "Create a Tiptap Cloud account, open your dashboard, and start the 30 day trial to test every\npaid feature Tiptap has to offer.",
+    "translation": "创建一个 Tiptap Cloud 账户，打开您的仪表盘，并开始 30 天试用，测试 Tiptap 提供的每一项付费功能。",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "2d374f44647a66922ff9d7499f2b1f6b668354e64e0551d5122ed9379665c906": {
+    "source": "Browse examples",
+    "translation": "浏览示例",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "c5820fa421af99701d5fc2a282ebab6773066a270bf2a1186bbd7d93a451b905": {
+    "source": "Text editor",
+    "translation": "文本编辑器",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "30fe9af378278ed65a3720cc3fe90aa53f130ee686746c0d3cf94606029dc3e2": {
+    "source": "Develop a rich text editor using Tiptap with minimal code.",
+    "translation": "使用 Tiptap 以极少代码开发富文本编辑器。",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "a38f5c406bb6fd0c0b32fd9fc7a80fd82e6a14b1a75178522fce159577309468": {
+    "source": "Collaborative editing",
+    "translation": "协作编辑",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "69467dc2054d4adfa5039cff3b3ba6df48795e5512d50639e0989e9e0ce8ce3e": {
+    "source": "Build a text editor featuring multi-user collaboration.",
+    "translation": "构建支持多用户协作的文本编辑器。",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "f8ecf9d6fc210c11b749f5d2af6719cdc354e9f9ce7f9d2cc59c952b5215cb0f": {
+    "source": "Community",
+    "translation": "社区",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "c1cfe513f65f5268e2c6407d4ae445f6030ae7f87cf654575aaa8af2faab022d": {
+    "source": "Twitter",
+    "translation": "Twitter",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "f673715238cf113b17c2d917e004d46ae745569faa332f1bcdbb70b01b650ed7": {
+    "source": "X",
+    "translation": "X",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "2a5e87528026b84862e746d1049320e4f762508d332bcd1d4e2596e1895eaa26": {
+    "source": "Follow us on X for the latest news and updates.",
+    "translation": "在 X 上关注以获取最新新闻和更新。",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "d000a602a619a68026f8f5cf5ade6a765261ae641243557199c990606a87c2b7": {
+    "source": "Discord",
+    "translation": "Discord",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "d12c7bb9f6d5c38267621a58c29f65efc9a9c85c67cf35269234d02936dcff17": {
+    "source": "Connect with the Tiptap community.",
+    "translation": "加入 Tiptap 社区。",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "63213dc32c9319cf7dbadc5faf93329d0d7e47f4f5f3cc91988c97dfa5fdb1b2": {
+    "source": "GitHub",
+    "translation": "GitHub",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "f8207807f6217c5549c5c6186318951941d23bb4137d3151c706a5a7b00e7974": {
+    "source": "Follow progress and contribute to the codebase.",
+    "translation": "关注进展并参与代码库贡献。",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "75c1afadf2ebaee29e7e49d25ed741a574d16f95be8d3f8d0b7287fa8e8e50c4": {
+    "source": "Home",
+    "translation": "首页",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "82b2e34ce382c094215f29a85b4d9b9ad9cc5fc4d509877f4f18e5a0de06af5e": {
+    "source": "What's new in 3.0",
+    "translation": "3.0 的新增功能",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "9b93199533141e674edd76cbc35dfec6bb1c7cb8d25c9a36783c7abb0f622070": {
+    "source": "Authentication",
+    "translation": "身份验证",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "0a8f804f96e443ced1310f236808753bc1c564d7d0b527c69e63731ccb859da8": {
+    "source": "New",
+    "translation": "新增",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "d21969598f87022c0561458ff48efa97262a0941e3b2c6b8a5602746bd5a5d1c": {
+    "source": "Migrate from legacy",
+    "translation": "从旧版本迁移",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "598d713ede8db4c27488394abd8e6d9199b6c6f1e702ffbca21a0fa055aff06f": {
+    "source": "Legacy authentication",
+    "translation": "旧版认证",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "ca23f8521a64422e89383fb17e5513ff7802a8f0b24effd61a09f9894b0aff13": {
+    "source": "Agent skill",
+    "translation": "代理技能",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "8c1a3012eb57e90281db1121b625f1476209d1a093a298c1d44d9b714413987f": {
+    "source": "Tiptap trial",
+    "translation": "Tiptap 试用",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "09c9c49fd7f3196262e7e6214ea5d12b81c7949d2f81f013c9f01c3efa30738c": {
+    "source": "Editor changelog",
+    "translation": "编辑器更新日志",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
+  },
+  "17eeb3d33bfd1c45a0dff6cae02bab22fb60aa0a5591d727105931c47974e112": {
+    "source": "Incidents",
+    "translation": "事件",
+    "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
+    "sourceLanguage": "en",
+    "targetLanguage": "zh-CN",
+    "origin": "agnes"
   }
 }

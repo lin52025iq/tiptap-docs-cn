@@ -1,10 +1,10 @@
 {
   "upstreamSha": "1382bbae17fda8b38ba9f99183a9f47a27d57a0d",
   "rulesHash": "606d75150c5a7a341f7b1436fcea3b0a4b28e9b38a78225e8bcfce8569415f1c",
-  "status": "failed",
+  "status": "published",
   "total": 401,
-  "completed": 364,
-  "pending": 37,
+  "completed": 401,
+  "pending": 0,
   "reusedWithOlderRules": 50,
   "files": {
     "src/components/AskAi.tsx": {
@@ -12,134 +12,133 @@
       "total": 5,
       "completed": 5,
       "pending": 0,
-      "status": "translated"
+      "status": "published"
     },
     "src/components/CopyMarkdownButton.tsx": {
       "sourceHash": "fc8d74b31961f10ab3e522c2c255966df355aadf07d85aa0c265f50f5ac35993",
       "total": 3,
       "completed": 3,
       "pending": 0,
-      "status": "translated"
+      "status": "published"
     },
     "src/components/MobileNavigationDropdown.tsx": {
       "sourceHash": "3e6f93a4459aa479f0dd43f1f0d53d8b73c644d302200a024dc746ae1bc0f69f",
       "total": 18,
       "completed": 18,
       "pending": 0,
-      "status": "translated"
+      "status": "published"
     },
     "src/components/PrevNextTiles.tsx": {
       "sourceHash": "c59560f6cdac72f0592b620a94df16dfbb218def9fb532bc235e67fbf168067b",
       "total": 2,
       "completed": 2,
       "pending": 0,
-      "status": "translated"
+      "status": "published"
     },
     "src/components/ProductCard.tsx": {
       "sourceHash": "a175f864241abefb715bff04fecf7d64248f80b45252b214e2d9db9cf91a8095",
       "total": 2,
       "completed": 2,
       "pending": 0,
-      "status": "translated"
+      "status": "published"
     },
     "src/components/ProductDropdown.tsx": {
       "sourceHash": "6503c3069129a126deae5ed12af29f855572c14b3ca846c4fe58b91b91bbc74f",
       "total": 18,
       "completed": 18,
       "pending": 0,
-      "status": "translated"
+      "status": "published"
     },
     "src/components/SearchButton.tsx": {
       "sourceHash": "605d1e75b639649086567fe44a981e252d2a1f940dc341125ca4fec71bbe3398",
       "total": 2,
       "completed": 2,
       "pending": 0,
-      "status": "translated"
+      "status": "published"
     },
     "src/components/TableOfContent.tsx": {
       "sourceHash": "97bd228454b431fad19d23613b41963f61660e986db6cdcba87e9c16540b1cbf",
       "total": 2,
       "completed": 2,
       "pending": 0,
-      "status": "translated"
+      "status": "published"
     },
     "src/components/layouts/Layout.tsx": {
       "sourceHash": "f961a2f09623bc3ee40cbfa7e066c84364d8ca1898bcc6a05c793bc21e4bc67d",
       "total": 15,
       "completed": 15,
       "pending": 0,
-      "status": "translated"
+      "status": "published"
     },
     "src/components/ui/PageEditStatus.tsx": {
       "sourceHash": "a8161f25a656822b38ec371721532a1ef9740e38d4db57e0641a207d655c197f",
       "total": 1,
       "completed": 1,
       "pending": 0,
-      "status": "translated"
+      "status": "published"
     },
     "src/content/editor/getting-started/install/index.mdx": {
       "sourceHash": "dfe67893ccb9084a196d7fa7da7f9b5e6dd43142dbbde1699514fe7427e19ee2",
       "total": 27,
       "completed": 27,
       "pending": 0,
-      "status": "translated"
+      "status": "published"
     },
     "src/content/editor/getting-started/overview.mdx": {
       "sourceHash": "26630dcc239468a9b3dab2811803634c21704975af4590ef4c04cd95b9c18ca6",
       "total": 73,
       "completed": 73,
       "pending": 0,
-      "status": "translated"
+      "status": "published"
     },
     "src/content/editor/sidebar.ts": {
       "sourceHash": "fef18fca49ac093833dddb6dc28938443f0e8aefe21118be06289ae016ee2ba9",
       "total": 263,
       "completed": 263,
       "pending": 0,
-      "status": "translated"
+      "status": "published"
     },
     "src/content/index.mdx": {
       "sourceHash": "3b596319bf51c33d97f33302a2cfe00e8bb83e86156957e5a9a60ef8a2bb804f",
       "total": 96,
-      "completed": 69,
-      "pending": 27,
-      "status": "pending"
+      "completed": 96,
+      "pending": 0,
+      "status": "published"
     },
     "src/content/sidebar.ts": {
       "sourceHash": "97c3ef64993ebb3d66c751698f42179cb2024e564a35b0fc3bc9b838276095fd",
       "total": 28,
-      "completed": 18,
-      "pending": 10,
-      "status": "pending"
+      "completed": 28,
+      "pending": 0,
+      "status": "published"
     },
     "src/mdx-components.tsx": {
       "sourceHash": "86d077488a8d07eacfc8d8e0671b4bc6361e12ed69a170c67ea4cb02d8f30dc7",
       "total": 0,
       "completed": 0,
       "pending": 0,
-      "status": "translated"
+      "status": "published"
     },
     "src/components/ui/Section.tsx": {
       "sourceHash": "9b0d339c5377cc0212752b9d931567f8655e20a3a07ae9f4027ea2d2f5e83f15",
       "total": 0,
       "completed": 0,
       "pending": 0,
-      "status": "translated"
+      "status": "published"
     },
     "src/app/layout.tsx": {
       "sourceHash": "6739d60d4acb846dd004bf17115e755ab4daa5a3e7e7f73e9d1427a6f96d1093",
       "total": 0,
       "completed": 0,
       "pending": 0,
-      "status": "translated"
+      "status": "published"
     },
     "src/utils/index.ts": {
       "sourceHash": "c46268e42cfcfea8348f75fd977f0df0a7dc7c33dba5e1dec4818ce61ebe189d",
       "total": 0,
       "completed": 0,
       "pending": 0,
-      "status": "translated"
+      "status": "published"
     }
-  },
-  "error": "Expected ',' or '}' after property value in JSON at position 873 (line 1 column 874)"
+  }
 }
