@@ -141,5 +141,5 @@
       "status": "translated"
     }
   },
-  "error": "模型服务请求失败（HTTP 500）：Failed to reach upstream, please retry later (request id: 20261106080619460329059TIWIaUgJ)"
+  "error": "Expected ',' or '}' after property value in JSON at position 873 (line 1 column 874)"
 }
