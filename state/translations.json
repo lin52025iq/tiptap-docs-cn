@@ -1,0 +1,758 @@
+{
+  "38ebeaf0832b5665d0e42b680c092f5948571901a73c0afdbc09324fed8a8a6d": {
+    "source": "Editor",
+    "translation": "编辑器"
+  },
+  "3034240c7fc9d15c8766cbd66ecfd3540a939d33e4ee2c0f886ce3efd3e930f6": {
+    "source": "Collaboration",
+    "translation": "协作"
+  },
+  "7ea010f759029f6705b13c3f24f00c51a3c4c83a576f41460a429bf42437ab22": {
+    "source": "Comments",
+    "translation": "评论"
+  },
+  "3ac23b7258a359fac557649824732104c7110acf29f38974638fabf4b2bb1f79": {
+    "source": "Composable Docs",
+    "translation": "可组合文档"
+  },
+  "cfa55fa40a516015afb90974832d235411b098c0d263990acc0537014b99266c": {
+    "source": "Tracked Changes",
+    "translation": "修订跟踪"
+  },
+  "16068a0d2c214bbfa08e737d0c6aecf9adc008d5ec1f06a77fb8b55a7702cc86": {
+    "source": "AI Toolkit",
+    "translation": "AI 工具包"
+  },
+  "13e93eb49d9c6ce737a92ed43a1a23faece00de3a34f4b0a14180604926b6304": {
+    "source": "Snapshots",
+    "translation": "快照"
+  },
+  "c676b73b3ed9405bad274a3bd0da775dc192848e251d20ef031203af7e3f648b": {
+    "source": "Guides",
+    "translation": "指南"
+  },
+  "d840cc0156ce23ec410bee379f87835b6ac13d04717ade66c64e837145824d70": {
+    "source": "Examples",
+    "translation": "示例"
+  },
+  "18a21ca3b876cb0eba36b143fcedafe02062ddbb47f9992b493428f77976ca3d": {
+    "source": "UI Components",
+    "translation": "UI 组件"
+  },
+  "80da8ab7be35a8a9b1ca86e9a49f7a6736cc1e96be3f8f8e8271d28e6f48d8e9": {
+    "source": "Tiptap",
+    "translation": "Tiptap"
+  },
+  "22be3cb6b284e33d142ed03713a5dbbdab5624b7481bd8c6d7675570c81b098b": {
+    "source": "Overview",
+    "translation": "概述"
+  },
+  "9793b3f26e638f31a39cade6acbfcab561d10ad30447fc4591c840e5eb1d2985": {
+    "source": "ProseMirror",
+    "translation": "ProseMirror"
+  },
+  "6e64edb8865d96a63a931af35542f285026232aaf85589ed715cc3d5ce7e03e3": {
+    "source": "Getting started",
+    "translation": "入门指南"
+  },
+  "358310e5040b32eb97f763852fe8b16699a60f7675244960970a4fcec6ed5357": {
+    "source": "Ask Claude",
+    "translation": "向 Claude 提问"
+  },
+  "45e64c75646d150c0043acbc68e414a6f5bbe9377f578dc2695dd6316bb3d5b5": {
+    "source": "Ask OpenAI",
+    "translation": "向 OpenAI 提问"
+  },
+  "db2d71275cc77334420f7f55aaa05095a66a498cf70b76b4dc0f14bf85778f12": {
+    "source": "Ask T3 chat",
+    "translation": "向 T3 chat 提问"
+  },
+  "3c6b6a46cc3e75e3aac11e7a2541aaf67f7cfdcb2fcfda5822e6cb360bc3db99": {
+    "source": "Ask Perplexity",
+    "translation": "向 Perplexity 提问"
+  },
+  "2ef23351414fb4aaf07e75233885a2b01839bf655f1353418a4ab392ac2a4b2e": {
+    "source": "Ask AI",
+    "translation": "向 AI 提问"
+  },
+  "1654056e58d6ad868438a9568017280335608cb23f6fbab1ea9b208febc06d0d": {
+    "source": "Copied markdown",
+    "translation": "已复制 Markdown"
+  },
+  "653c3e6164eaeda80ed86770664404f36d38f14116e2cf28f5e335943d234109": {
+    "source": "Copy markdown",
+    "translation": "复制 Markdown"
+  },
+  "2faac4b07b6c1b19d8b3741a6ea2f4086fb52cc8f25c586441e7d9af47fd72ca": {
+    "source": "Features",
+    "translation": "功能特性"
+  },
+  "7ef830b17b3e5cdabc6c38b023859f30f286d4a2fb88c5e581f71e3bbf1a67ed": {
+    "source": "Compare",
+    "translation": "对比"
+  },
+  "6d65ac3cdff6dd073eef57ae7087dad3e14d03bd1b1fe92536aec7ee25347df8": {
+    "source": "Conversion",
+    "translation": "转换"
+  },
+  "d367c006354a731cb8aabf84a24c349e94402b2ea0b3025e7459ff8bc4581cd7": {
+    "source": "Pages",
+    "translation": "页面"
+  },
+  "51971cfb94752162899db38160934f4f5066bef5df3b0f0075254a8af5149eac": {
+    "source": "Others",
+    "translation": "其他"
+  },
+  "0d7e1e21a961ea6fc66e8bc20c64cd6f24e320c6ee9a69e2b1fff3644e24918f": {
+    "source": "Website",
+    "translation": "网站"
+  },
+  "fe9bfed9f9c8135d62dbf3f85a925efa9d2ada0a65e14eee647db0ce40767327": {
+    "source": "All docs",
+    "translation": "全部文档"
+  },
+  "837e84599bbae4600c6c95468b08b7f8f535e87a5b147e7e73d8e054a58fc3b6": {
+    "source": "Sign up",
+    "translation": "注册"
+  },
+  "e3b9292944dc36ed74151325ee74f27914146e20934bf64eea301053f0db2cf8": {
+    "source": "Next up",
+    "translation": "接下来"
+  },
+  "c33dfb672950a29b3f8267d7648e9a7d9c04cb98daff6c175b964886c89844e2": {
+    "source": "Previously",
+    "translation": "上一篇"
+  },
+  "9a1968f6722c36f802c2f110933d33b516b4420460e0442e4f240d6e30305040": {
+    "source": "Example",
+    "translation": "示例"
+  },
+  "664da69052a812fb9bcc6f65f1d4f4c42171dc650d0abbf506b156573bcab7e1": {
+    "source": "Documentation",
+    "translation": "文档"
+  },
+  "98348ea44f9271f2895faf3ffa6fbfd19adbcf6493d52b5546708699c159aedf": {
+    "source": "Documentations",
+    "translation": "文档"
+  },
+  "3e2f52a5c40f9e66179f65f78e4edaed1449cf3a6e2b64841ceddd0ebe3904f4": {
+    "source": "Search",
+    "translation": "搜索"
+  },
+  "2dcd77ebca5c93d49e5763ad5327fd1c19a1c0c6b8793d375d309d2632a20492": {
+    "source": "K",
+    "translation": "K"
+  },
+  "b68c42f7dbc1ad603bced5933e02f3130fedb9b0945dd60ebaf8cf4260d8ddf7": {
+    "source": "On this page",
+    "translation": "本页内容"
+  },
+  "144094abc590175f1c10d8918327b4587c77fe52cc5ae451c473a80442b57f1d": {
+    "source": "Introduction",
+    "translation": "简介"
+  },
+  "b92173212491a388871cfcae3a9310054bb77d5aa4a9be227a6ea748d9ac9c7a": {
+    "source": "Docs",
+    "translation": "文档"
+  },
+  "d4dc736dbeb807b8586795415c4785daf2b7203ab7302a3f25ce8ffac9a6a97f": {
+    "source": "Lifecycle",
+    "translation": "生命周期"
+  },
+  "439d8ccdd572ce0583b34361093bfab849a226ce45a3364e03cd4721b04006f7": {
+    "source": "Checkpoints",
+    "translation": "检查点"
+  },
+  "5d5c1fb48235ea014e53185ba2445d74b207458930c33117f639936e7448abb8": {
+    "source": "Provide context",
+    "translation": "提供上下文"
+  },
+  "f5e95edb543a77d71dea787af2e3b30d851ee8193b3154b2dd838009713803c4": {
+    "source": "Selection awareness",
+    "translation": "选区感知"
+  },
+  "95224a9d0e560a3debc17e8739bf4aba5c8a70d97d86edf5e06cf72703b64c18": {
+    "source": "Read large documents",
+    "translation": "读取大型文档"
+  },
+  "73a5b5cd758ef939b0fb5b7c4b97e591d4b453cdbce355b6e99d40d2d1cda73e": {
+    "source": "Configuration",
+    "translation": "配置"
+  },
+  "b46928ef32bf24f22fec065df1f9fc9f432fe7ac173c5fe77e064457b1d73f6a": {
+    "source": "Configuration options",
+    "translation": "配置选项"
+  },
+  "ae9be8e310e8e8907f53bec4adc4dacbe92d114fe8f88c0bc22fe765e395428d": {
+    "source": "System prompt",
+    "translation": "系统提示词"
+  },
+  "7eabe672237c5b759e8971659118da599b318ef87ff987c7ec4c4ed7ecd82458": {
+    "source": "Custom nodes/marks",
+    "translation": "自定义节点/标记"
+  },
+  "960a40ab67b6571a12c8df0c2c7e721acbff33e3cf754f0b99574add2e148475": {
+    "source": "Review changes",
+    "translation": "审阅修订"
+  },
+  "800c4fdbc707d8beebbf6c0c2bcf8be30a3f633ccbbeff0a6cb304bbbb690d86": {
+    "source": "With AI Changes",
+    "translation": "配合 AI 修订"
+  },
+  "93d4afbd36d7265e98ea6be2eb5dfa393eb06fe8d0ff0c8bc65e7ecedc998e9a": {
+    "source": "With AI Suggestion",
+    "translation": "配合 AI 建议"
+  },
+  "dc4280a71fd013b018872d5b2a278083ab51a40f7cf09cb0410ac8e5efc4570a": {
+    "source": "Reference",
+    "translation": "参考"
+  },
+  "6215315a95ae057efd07d72ffa4ad583e3faf758b30a8e11842237f5d929c104": {
+    "source": "API Reference",
+    "translation": "API 参考"
+  },
+  "58ce5c1147d5814f5a3bfbb6d26e784f7fdba5bafbb13d052875408df6021d43": {
+    "source": "AI Changes (Legacy)",
+    "translation": "AI 修订（旧版）"
+  },
+  "bd414a0b7c2c3403d27f3c24d91b9ec1c717fda350805ac4218fa8c7733e7fa9": {
+    "source": "Display changes",
+    "translation": "显示修订"
+  },
+  "862fd8b4e4de4e4a20642ec57db48f5236d600da8ecf941d74404bbd6b2227fe": {
+    "source": "Configure",
+    "translation": "配置"
+  },
+  "bc2b12c3c695e9d174f3ade762285d67b6445136c2966c7843df16bd3443ae41": {
+    "source": "AI Suggestion (Legacy)",
+    "translation": "AI 建议（旧版）"
+  },
+  "42577202648216ad804e9dd1774177a83b836b4f70fc908dfe10196eeff799d2": {
+    "source": "Define rules",
+    "translation": "定义规则"
+  },
+  "47f84ef52d5b1146d0c23d6efeca14ad40ec1c6af9cccb3249afc80d0459a4ab": {
+    "source": "Configure when to load suggestions",
+    "translation": "配置加载建议的时机"
+  },
+  "ad7b847a823479d538c7e7a78c39a1c34fef4a232043552d027b0c6be7008c86": {
+    "source": "Display suggestions",
+    "translation": "显示建议"
+  },
+  "58d5713f64d7e92a31c8c0be5facf70f1cc3452ca1b58cf22d1947c25747257a": {
+    "source": "Apply and reject suggestions",
+    "translation": "接受与拒绝建议"
+  },
+  "cf1892fe3ac81226793fa9a012957b7adb100e08f900b056a274449f0da63e15": {
+    "source": "Lock content",
+    "translation": "锁定内容"
+  },
+  "350a3d6509ff8267e49514fec4fc6b086373f4047cd2d2cb8c75f8340c059fc0": {
+    "source": "Provide LLM context",
+    "translation": "提供 LLM 上下文"
+  },
+  "93b2ccd805f29adf9ea59367eecb268ecd5f4de15d6ef0e155304bfa078c59bd": {
+    "source": "Diff view",
+    "translation": "差异视图"
+  },
+  "f505163e1bcceb17eb723481ee5c56594ca819021b2bb83fdd720f5e6527fe8b": {
+    "source": "Hocuspocus",
+    "translation": "Hocuspocus"
+  },
+  "a1dca502b2eb7ec9cf3d5a70134dda903ff2cee190516fb3d6b6dbdc78381084": {
+    "source": "Legal notice",
+    "translation": "法律声明"
+  },
+  "59040ee69367cdbf806fa4534fb3aa891fb905cdd989cdce8d35074705942f74": {
+    "source": "Privacy Policy",
+    "translation": "隐私政策"
+  },
+  "848b64a72755d717b8d4909c1b43edf0fe60c5b4e44e77d24ba723f1e9986c2f": {
+    "source": "Terms of Service",
+    "translation": "服务条款"
+  },
+  "9eac4258946be75e9949e3babf1f62a0136b5a4ddb22843898569b6c28e75f2b": {
+    "source": "Contributing",
+    "translation": "贡献指南"
+  },
+  "c2a2d83f6aacd2766a632c16f0aa880559f812b7d33498342e95006733c485d1": {
+    "source": "Changelog",
+    "translation": "更新日志"
+  },
+  "5ccebeeb90b81ddc968fe88d6a8964e18989cd580610ea936a4643322021bf74": {
+    "source": "Copyright ©",
+    "translation": "版权所有 ©"
+  },
+  "02caacbae06d489ad2d6f20979d6016b89aa8ca4fe839bd0f68759a7131bfc57": {
+    "source": "Edit this page on GitHub",
+    "translation": "在 GitHub 上编辑此页面"
+  },
+  "af60c19ef9f36c0356784e7cc4398faf98533b27478909c4a9c0f597c35e714f": {
+    "source": "AI Assistant (Legacy)",
+    "translation": "AI 助手（旧版）"
+  },
+  "88595210a2d8e0711105a103bff7a341650fc78a42ca105d57b2f63ef9930428": {
+    "source": "← Back to Content AI",
+    "translation": "← 返回 Content AI"
+  },
+  "b29d438724d7185cfff9761431acd6dfdbcc0228b9faf2ae3e945881cba9f20f": {
+    "source": "Get started",
+    "translation": "入门指南"
+  },
+  "15cf113b2fa1e7ee3e22b0adf1ed529c04d03306192c03533cbfb6609a66b3d4": {
+    "source": "Install",
+    "translation": "安装"
+  },
+  "707720f8ecf771bd0a26e1fe327160b991ae31ef3df8f107af3071f94d66562c": {
+    "source": "Integration",
+    "translation": "集成"
+  },
+  "68423f69f88ec66a5acd4bdae2871ddf64a6c0ff0d35a7adefb80d5c0453e123": {
+    "source": "Use with Tiptap Cloud",
+    "translation": "与 Tiptap Cloud 搭配使用"
+  },
+  "f742281a14c0e7572db48e497c16c4051e6a996268cf05b3f9837c066a472230": {
+    "source": "Use with your AI agent",
+    "translation": "与您的 AI 智能体搭配使用"
+  },
+  "58940246278307706f9ae4af45dd973d546bd3cc693055a6ccd1ae54bee7569b": {
+    "source": "Vercel AI SDK",
+    "translation": "Vercel AI SDK"
+  },
+  "d3dff0a98017b498ce4015976192eb64797a5cb9b626be3514396af79ef60b10": {
+    "source": "OpenAI Completions",
+    "translation": "OpenAI Completions"
+  },
+  "f8179abc9fa5c4a058b64cd4fc9c861c874c9dab1fd1672b7b1167e015ae4bd5": {
+    "source": "OpenAI Responses",
+    "translation": "OpenAI Responses"
+  },
+  "46c835a76563884e9d2dd6cf5d65ecb9e98b057dea3395485912b0f6e51639ee": {
+    "source": "Anthropic Claude",
+    "translation": "Anthropic Claude"
+  },
+  "b1cface84620b1194c95535ce46655c6cfbc954cedb537ab42eaabb271576f84": {
+    "source": "Tools overview",
+    "translation": "工具概述"
+  },
+  "43b2246fa89978d372f84ac4cfb5ee7c7adf0c21db578b339f53847ce8b2a66c": {
+    "source": "Client-side tools",
+    "translation": "客户端工具"
+  },
+  "ea3c9b5fa52e6bd37551684c33bea78c4d560b58e24f873ccbffb1f9abd26312": {
+    "source": "Server-side tools",
+    "translation": "服务端工具"
+  },
+  "a87596d4fb9d2159e5d35789d30e92d8bfa234059aa51fdf8ee50c931c3ca3ef": {
+    "source": "State",
+    "translation": "状态"
+  },
+  "a8a9fce1f4550a2d3d2eb45608ce88ba12213a9f064e3bd9b5023ba2dd6c94c4": {
+    "source": "Events",
+    "translation": "事件"
+  },
+  "9a06ac2976ee1755e890e355330e3933a3cc5ff39ad2dfa5b3fe588eb9a483c7": {
+    "source": "Methods",
+    "translation": "方法"
+  },
+  "34e07669ac3e8dda73fc4b42d1ef8ab0a746d7aa27faefcfdce84a0a995add27": {
+    "source": "Multi-document",
+    "translation": "多文档"
+  },
+  "0073efde47e1fc34d37fc34b2556e16878fc21c9e9843109cd330d9645917109": {
+    "source": "Schema awareness",
+    "translation": "Schema 感知"
+  },
+  "a665cd26d9546105627d75db3a4b81b9655194b434e3c96b1240be792c79cde0": {
+    "source": "Tool definitions",
+    "translation": "工具定义"
+  },
+  "a7e6d10e79d19dd4cf5715f0df15e3bd2f58b7eebe6032a97981d062fc878c5d": {
+    "source": "LangChain.js",
+    "translation": "LangChain.js"
+  },
+  "471d101f07fda6f650e38894c2402fedbf3e17656d53ec70a901824dba9f6a0a": {
+    "source": "OpenAI",
+    "translation": "OpenAI"
+  },
+  "56fa2c5cfbd8c4afe39b9a07fc095db283bfa0f21a0680021d9bd4c16e2840af": {
+    "source": "Anthropic",
+    "translation": "Anthropic"
+  },
+  "5464e3d8f75eb371a0c75eb550c1ac6bfdebb778741eeba03e282204ff64a2fe": {
+    "source": "Mastra",
+    "translation": "Mastra"
+  },
+  "41ed19f04237dfa98c30f2413fa1fe822e30a4d6b8b1f0d36aca069e8679e65c": {
+    "source": "Other providers",
+    "translation": "其他提供商"
+  },
+  "7739e158dec5ffed7a3f27ac4a1c1a290d0a8a316f3513853df38a76d92f4726": {
+    "source": "Workflows",
+    "translation": "工作流"
+  },
+  "d7c11f8b092f8f222141925455dc163db78bae076eeea2ca3ed4924222d5b359": {
+    "source": "Insert content",
+    "translation": "插入内容"
+  },
+  "42a1d18e093a9ca44370e1104c37249252c33e41436672cbc2054442fcc39c31": {
+    "source": "Proofreader",
+    "translation": "校对工具"
+  },
+  "1a28d570090d84402cbed69180ce0e17285b35309c12ee499fce19dbc098c654": {
+    "source": "Tiptap Edit",
+    "translation": "Tiptap Edit"
+  },
+  "8e7d3b2fcafbe73087656a66ae88ef7ed4cb3a288d72e1d6ee31e58e6e64b294": {
+    "source": "Template",
+    "translation": "模板"
+  },
+  "43c7c0409f82807b165ccdfffb85aa4734215722675c4e8535151c18c4d7cd46": {
+    "source": "Live demo",
+    "translation": "在线演示"
+  },
+  "5ea6efd0741355145eb717a5857a3694dfcb2cb2179ab01af810e4069c0129d7": {
+    "source": "Concepts",
+    "translation": "概念"
+  },
+  "e05137c1b12914aa4f05273dcc2f40b2eddc6e1cba59c146b872b0bbe72519fb": {
+    "source": "AI engineering",
+    "translation": "AI 工程"
+  },
+  "592e9eea831c490a42b5021430a6668e31c03e79835a53f217d3845d6e5753b5": {
+    "source": "Compare documents",
+    "translation": "比较文档"
+  },
+  "7b3a998ee74d740fba6902690f8865866b1ef1b994191d136c33c68ba5d93c08": {
+    "source": "Split view",
+    "translation": "分屏视图"
+  },
+  "a67488ea3e213076cad7443410ef3ca63320e0f485b92ea6eeb8fb0ffdf366fd": {
+    "source": "Tiptap Edit hooks",
+    "translation": "Tiptap Edit 钩子"
+  },
+  "32fa47c387074581eb29411ccd2c43a9543734b1e4ebce330beec7c9f6495a16": {
+    "source": "AI Caret",
+    "translation": "AI 光标"
+  },
+  "d46a09ebf7212471c1e16d0fa5e7bb7ee7cc5b338d816e7201e9e9efd1a0e604": {
+    "source": "Non-TypeScript backends",
+    "translation": "非 TypeScript 后端"
+  },
+  "526feb88e990af4dece6b72beb26cfb1e12c30adda51c803f852a816b4112ecc": {
+    "source": "Migration guides",
+    "translation": "迁移指南"
+  },
+  "aa20cfdfaa7b93f3846a2dc07489bb787fe80b1c889c352cf3aeeedc33d47560": {
+    "source": "Basic AI Generation",
+    "translation": "基础 AI 生成"
+  },
+  "049c74edcd39b91e655825b9f42b2fdf0ea7f7bde9a452ac92d37abcee5bf1ca": {
+    "source": "AI Suggestion",
+    "translation": "AI 建议"
+  },
+  "e97109c2a6d636bc1a6514824f72be257a1218bf5779840d5964904a1899d61b": {
+    "source": "AI Changes",
+    "translation": "AI 更改"
+  },
+  "1467d2a105865ac77564f1e2795ce3f8d04a6c7e9e6c152973b753c3c7cfed7b": {
+    "source": "Use with Content AI Cloud",
+    "translation": "配合 Content AI Cloud 使用"
+  },
+  "a434a3ba06a778db5853b3a7b00a6b0e34e8081cda81c7ee47c0dfc6cb178f67": {
+    "source": "Integrate your LLM",
+    "translation": "集成你的 LLM"
+  },
+  "f522437cf557343f23ce6ee692a7538b99151855cc7a5570f3eaeba3b9695427": {
+    "source": "Add-on",
+    "translation": "附加组件"
+  },
+  "61149559ecc3d6e7a707d2db26bf517c40bad5a3672017f3dc41e52efd0883a6": {
+    "source": "Agents",
+    "translation": "智能体"
+  },
+  "2600799cce0dd1df0fa82845957115036f91715f02bcb1a3f99a345630370ba4": {
+    "source": "AI agent chatbot",
+    "translation": "AI 智能体聊天机器人"
+  },
+  "887b313726df83504a5530c47e11d66ac9a8cb9a8e2f3862ad1ebaabac988822": {
+    "source": "With Tracked Changes",
+    "translation": "配合修订跟踪"
+  },
+  "c8af09e5020227c0c15439f0033f599dd6c17956892f0715b12f126a80f9bfd2": {
+    "source": "With Whiteboard",
+    "translation": "配合白板"
+  },
+  "218fbd3ffe19c1fed676ee50fab98531defc2c376c27b6feb050a04c7a4ba1bc": {
+    "source": "Streaming",
+    "translation": "流式传输"
+  },
+  "c9f8eed8e2d6cf3dc0f3251ac200dbb5b4a6a9e4c8958fcbaa18e71711bf6be2": {
+    "source": "API reference",
+    "translation": "API 参考"
+  },
+  "b7839d6df4a4b52aacd5e84c7592b9c78e838ba3ae228eece9efe5ee10e28315": {
+    "source": "REST API",
+    "translation": "REST API"
+  },
+  "c1c226897bbfce46d57cb784725b0d32b4a68f8476c00241b80022f22130374c": {
+    "source": "Tiptap Query",
+    "translation": "Tiptap Query"
+  },
+  "e1c1e11e6fa61249b01966e140bbfad73801bba7364cd3c2530152305dbe9289": {
+    "source": "Editor context",
+    "translation": "编辑器上下文"
+  },
+  "732f15e056ad5e1fde40f447a9b4d3153776514223ae73b8789c66ad6245fc7c": {
+    "source": "Review options",
+    "translation": "审阅选项"
+  },
+  "38af06494bfe78f0951a4fc48b54ffa9301b9254a8192823d8a6c13a53bf1d9b": {
+    "source": "REST API (legacy v3)",
+    "translation": "REST API（旧版 v3）"
+  },
+  "6362a6a2b256e7f00f247df8eae0884cf9004b305ba614743d97038dd545d94c": {
+    "source": "Advanced guides",
+    "translation": "进阶指南"
+  },
+  "0a1f1c5f89e9331cde9360ec826aabd4b729f6c0d6c172aabec161242cbfe77a": {
+    "source": "Custom nodes",
+    "translation": "自定义节点"
+  },
+  "f261195a35fcef3a6de4e7ea6cd68b1791c9ecffb70487fd107b4c4501633537": {
+    "source": "Tiptap Shorthand",
+    "translation": "Tiptap 简写"
+  },
+  "cfba4c09807a4c5c17c5316cdcb8951c5a25d150ff62f6eeb08cf8fd96d0ae56": {
+    "source": "Security",
+    "translation": "安全性"
+  },
+  "d3e80c0a4ff2ee97b3a3678295ee7263d0930f0183693cbd900583a70f4d2042": {
+    "source": "Other Options",
+    "translation": "其他选项"
+  },
+  "02a32467fdd2bf4be4556a94fcfbc12edd179cd9b9c1efb1aae358d067c9975f": {
+    "source": "Client Toolkit",
+    "translation": "客户端工具包"
+  },
+  "083611060cfee7150932c576f40ede56caab68194628f6d4b4ef420c3f32fbfd": {
+    "source": "Use cases",
+    "translation": "用例"
+  },
+  "590eebddedf9a73a0806886a8c4ad9e6db310afb0a268e76cf87d66c8d8a3d63": {
+    "source": "Tracked changes with comments",
+    "translation": "带评论的修订跟踪"
+  },
+  "5835ae3e0dbdcc7b111c15593fd71fe90f372a341ddabe6a4507c3618065a424": {
+    "source": "Suggestions",
+    "translation": "建议"
+  },
+  "0c45457fab6b7a94f11c0b43866a4a9bde3f8a5f321ab8833f663ad5bb4ab3fb": {
+    "source": "Suggestions with comments",
+    "translation": "带评论的建议"
+  },
+  "0fedecd59c497ce2cd669821fc2ec6115267ad18e34918bea3237eb5bc1b36a9": {
+    "source": "Style suggestions",
+    "translation": "风格建议"
+  },
+  "33f35f5064307009b8f2b1c65927a82f3c73bf07c4506aabb0b903cd910d6e73": {
+    "source": "AI Assistant",
+    "translation": "AI 助手"
+  },
+  "e8c3d5ae009d12302cb836c18e91b98c2c38f51fe5943c1447dca7f9e03eb14f": {
+    "source": "Read the document",
+    "translation": "读取文档"
+  },
+  "57197126da5ca037b4befbd679de2b261368661458d3f82e7c585421a71c963c": {
+    "source": "Edit the document",
+    "translation": "编辑文档"
+  },
+  "6494bd39224b40549ad3769467cc0b695b3a778f4931420d1f248c3cf503315a": {
+    "source": "Tool execution",
+    "translation": "工具执行"
+  },
+  "d8ea8c4e93838e5721a94e0f98eddb4ca1eb5e910172071dd782c73e1565ac39": {
+    "source": "Diff utility",
+    "translation": "差异工具"
+  },
+  "d1fabba3feb0cc43f18dbba9a2177e13380a090baab02aad304c82ac4c3edd5d": {
+    "source": "Start",
+    "translation": "开始"
+  },
+  "fc56630a593eed08b0442d553ce8fca6662d3d225a22ad30800c4094fef06a41": {
+    "source": "Text generation",
+    "translation": "文本生成"
+  },
+  "e1685bc5d0c4d656a9bc7264e1c45bafc952a52c7c7b37dff930874536012b95": {
+    "source": "Built-in commands",
+    "translation": "内置命令"
+  },
+  "d23fae20291ec8009f603423bf380f3538c626c78039f9fc5dd926005300bf95": {
+    "source": "Autocompletion",
+    "translation": "自动补全"
+  },
+  "9c38af87b40a9aa22dc6903eea4680e3cffae92cc3f1368c923d657687d401f0": {
+    "source": "Formatted responses",
+    "translation": "格式化响应"
+  },
+  "6f479209caad69e57d578e0f201432d0894f90c29b4aa81459d5efca63c046d7": {
+    "source": "Manage responses",
+    "translation": "管理响应"
+  },
+  "2092c3531cd984e4ce109a56fdd20b107cee796f8da4814ed010b222d6ff9073": {
+    "source": "Custom commands",
+    "translation": "自定义命令"
+  },
+  "3ce02da6b134e3d887e5c70f61cd94413d7646304e92059d799a48b82d3ba06e": {
+    "source": "Stream content (Advanced)",
+    "translation": "流式内容（高级）"
+  },
+  "6efa868fa7ef7c0de61e0f53be7ba256fbe7bf62fd0a6862bd36701e83d94f6f": {
+    "source": "Image generation",
+    "translation": "图像生成"
+  },
+  "5cc92cdc892134c7d5f7b73a1acc15f034651bff69134429cd66fd7f64364812": {
+    "source": "With Collaboration",
+    "translation": "配合协作使用"
+  },
+  "d3ec015704e507a1d0265f57d7afa4b61495e34759817fa825d73082ac1e4a09": {
+    "source": "Authenticate",
+    "translation": "身份验证"
+  },
+  "6664f54a3519a971d069b927c546a53203d410f73666c4ee21a2fa87560f0354": {
+    "source": "Provider",
+    "translation": "服务商"
+  },
+  "c7b34131b150c76c6e0103126fa19a6fa13f8b4736a34d90b5537cbdff559cc9": {
+    "source": "Awareness",
+    "translation": "感知"
+  },
+  "e5010d8613763bbd7088d65728edcbaa7bb3cf8fdb14dab4c3b96cbedf2a900d": {
+    "source": "Webhooks",
+    "translation": "Webhooks"
+  },
+  "ba91a1ec6a9b3f258e04acf8aee75501e6f1a4bb8e79742a81110948460494ba": {
+    "source": "Team",
+    "translation": "团队"
+  },
+  "dc3cc754c000303420abfaaa7d8a5b7ef779c108899c1c0e94028dba01925876": {
+    "source": "Documents",
+    "translation": "文档"
+  },
+  "5c1bad357aa253b3f63af1a6fe5083bc55773722ece420ff784cc28210dca5a8": {
+    "source": "Compare Snapshots",
+    "translation": "比较快照"
+  },
+  "eddd7702d1868a5a6d9c746a0ff2cf049ebd43294a5ea11e0fdd7274e9339729": {
+    "source": "Inject content",
+    "translation": "注入内容"
+  },
+  "bdd1f20e9cf8d7087453ee6a99e8e97e634861c1f65d218ca7243b11e59b398a": {
+    "source": "Ops",
+    "translation": "运维"
+  },
+  "8b01b3a22597a4f6897e30b5c10a65db752dff0468468d980d28b3682b4ad177": {
+    "source": "Configure runtime",
+    "translation": "配置运行时"
+  },
+  "6282388cca494dbd0112baa2bc9683b2aa51054566d6706ff0b5c5b1206855fa": {
+    "source": "Metrics",
+    "translation": "指标"
+  },
+  "ccc9c6b96c82ce8dc523eb18551c05d7bca848566ed9a54355da676207d47d79": {
+    "source": "Core concepts",
+    "translation": "核心概念"
+  },
+  "14710598457c9892771fd9a5738289a66068f71f66f6064a8a6cdd15527989a9": {
+    "source": "Manage threads",
+    "translation": "管理讨论"
+  },
+  "a99fe31b2ee0f609919da055c863c2744ff17cf1b7d0603bf26e3145b2a9fe6f": {
+    "source": "Style threads",
+    "translation": "讨论样式"
+  },
+  "f89f12cf0a101f5717135613ad59888446081459fb34908f1229fc5e5770a7d7": {
+    "source": "Thread authentication",
+    "translation": "讨论身份验证"
+  },
+  "5feecdad7a5efcd34b2451dfd84fd33f5247233a555556817377f573c0a1525c": {
+    "source": "Integrate",
+    "translation": "集成"
+  },
+  "cde82d91fb7d00904491cdb310d0266872863d424a21c490b4a29aea8f751560": {
+    "source": "Editor commands",
+    "translation": "编辑器命令"
+  },
+  "07efe2faae7269d47bc61772c4c0feec174bd213c9f6083d6fbedb10ced9dfef": {
+    "source": "Comments on code",
+    "translation": "代码评论"
+  },
+  "b2babdc933d76c187b0ae7cd2e3ac60f09db2e20b1eb9bcf7dde3ff9b444470e": {
+    "source": "Create threads via API",
+    "translation": "通过 API 创建讨论"
+  },
+  "10b4b2b44fd24e92823fb25c31bf12eabcdebd916c2cf4abe5fd609efbfb02cc": {
+    "source": "Webhook",
+    "translation": "Webhook"
+  },
+  "8b351206e2e8e2368285c46bf7757fa53e60bf47cfe6aba774e4ac817101798d": {
+    "source": "Compare versions",
+    "translation": "版本比较"
+  },
+  "3ab22329e2874283695095f27341be8bc41d413f13b6af1a284fdf4e19eeaa7e": {
+    "source": "Server compare",
+    "translation": "服务器端比较"
+  },
+  "2948455f306200efc6a1f9f83e3ad668127c0ffbcc50808c472d529e340dce77": {
+    "source": "Commands",
+    "translation": "命令"
+  },
+  "0401d261761e9904c214b6564c445ca2fd601f4ebf3c71945e2a7ec6cc286055": {
+    "source": "Utilities",
+    "translation": "工具函数"
+  },
+  "375475b3908a125f9bc81d38efad3fdf861248cc7597126dc49d2c055b0002bd": {
+    "source": "Types",
+    "translation": "类型"
+  },
+  "de45b3cdf16020dd9622e7e45198776e352c9b3d30bfe756c64a16d01ae94bd0": {
+    "source": "Styling",
+    "translation": "样式"
+  },
+  "88549d12c3ff47e5ac9bdab2ea83a7c1d7eaa71789c7ca8099711f8c3e537832": {
+    "source": "Slots",
+    "translation": "插槽"
+  },
+  "936f56555a077dd12c088d0ea98b023321e01bab66fdaaf7a8e80a785e8c3a89": {
+    "source": "Add slots to a document",
+    "translation": "向文档添加插槽"
+  },
+  "1f302ee8bad44a5fbb4a3d3c2e25cd15986c27a2852e3733c4db7606ddc739f8": {
+    "source": "Allow filling only",
+    "translation": "仅允许填写"
+  },
+  "70db0e263d4dcdcd7947d2039582eb713677f076d5b7fc1471e706b67b6b6bab": {
+    "source": "Value slots",
+    "translation": "值插槽"
+  },
+  "79f7a47735ead6bb3ac300636ecaed29843b63a379872a57febf440ba67df21e": {
+    "source": "Validate Slot values",
+    "translation": "验证插槽值"
+  },
+  "aac6e47df05e4475ce280ed6b0b6fe2a19cfff278064f9b773ed848eaa326ae3": {
+    "source": "Table fields example",
+    "translation": "表格字段示例"
+  },
+  "97e1ff9bfbcee131dfaee8cb09ef28fdfd5827d20d8443e2e1240b2a9daf8233": {
+    "source": "Extension",
+    "translation": "扩展"
+  },
+  "a109a8543bd19c4a0617798d618ffc78b3db1eef23d5f723d6ee548107673b31": {
+    "source": "Validation",
+    "translation": "验证"
+  },
+  "b904adb0af14a5c699acecbcaa7e6bd100dbdf3c43bade95a1066956660a37b4": {
+    "source": "Editor events",
+    "translation": "编辑器事件"
+  }
+}

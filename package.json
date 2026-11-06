@@ -1,0 +1,26 @@
+{
+  "name": "ai-translator",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.9.0"
+  },
+  "scripts": {
+    "start": "node --env-file-if-exists=.env server.mjs",
+    "test": "node --env-file-if-exists=.env server.test.mjs",
+    "sync": "node --env-file-if-exists=.env scripts/sync.mjs",
+    "plan": "node scripts/sync.mjs --plan"
+  },
+  "dependencies": {
+    "remark-frontmatter": "5.0.0",
+    "remark-gfm": "4.0.1",
+    "remark-mdx": "3.1.1",
+    "remark-parse": "11.0.0",
+    "slugify": "1.6.6",
+    "typescript": "5.9.3",
+    "unified": "11.0.5",
+    "yaml": "2.8.3"
+  },
+  "description": "Tiptap 中文文档翻译与自动同步；兼容本地 HTTP 翻译服务"
+}

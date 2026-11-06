@@ -1,0 +1,90 @@
+name: 同步并翻译 Tiptap 文档
+
+on:
+  schedule:
+    # 03:23 Asia/Shanghai
+    - cron: '23 19 * * *'
+  workflow_dispatch:
+    inputs:
+      publish:
+        description: 翻译和语法检查成功后发布到 zh-cn
+        type: boolean
+        default: true
+      refresh_rules:
+        description: 按当前提示词重新处理规则版本不同的旧译文（会增加模型请求）
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: tiptap-docs-translation
+  cancel-in-progress: false
+
+jobs:
+  translate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
+        with:
+          ref: main
+          persist-credentials: false
+
+      - uses: actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444 # v5
+        with:
+          node-version: 24
+          cache: npm
+
+      - run: npm ci --ignore-scripts
+
+      - name: 同步上游并生成中文文件
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_BASE_URL: ${{ vars.OPENAI_BASE_URL }}
+          OPENAI_MODEL: ${{ vars.OPENAI_MODEL }}
+          REFRESH_RULES: ${{ inputs.refresh_rules }}
+        run: node scripts/sync.mjs
+
+      - name: 只发布到文档仓库 zh-cn
+        if: github.event_name == 'schedule' || inputs.publish
+        env:
+          DOCS_DEPLOY_KEY: ${{ secrets.DOCS_DEPLOY_KEY }}
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          umask 077
+          printf '%s\n' "$DOCS_DEPLOY_KEY" > "$RUNNER_TEMP/docs-deploy"
+          gh api meta --jq '.ssh_keys[] | "github.com " + .' > "$RUNNER_TEMP/github-known-hosts"
+          export GIT_SSH_COMMAND="ssh -i $RUNNER_TEMP/docs-deploy -o IdentitiesOnly=yes -o StrictHostKeyChecking=yes -o UserKnownHostsFile=$RUNNER_TEMP/github-known-hosts"
+          git -C .local/docs remote set-url origin git@github.com:lin52025iq/tiptap-docs.git
+          git -C .local/docs push origin HEAD:refs/heads/zh-cn
+          node scripts/sync.mjs --record
+
+      - name: 保存增量缓存和发布记录
+        if: always() && !cancelled()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [ ! -d state ]; then exit 0; fi
+          git config user.name lin52025iq
+          git config user.email 87741822+lin52025iq@users.noreply.github.com
+          git add -- state
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "chore: 更新翻译缓存与同步记录"
+          gh auth setup-git
+          git push origin HEAD:main
+
+      - name: 显示翻译进度
+        if: always()
+        shell: bash
+        run: |
+          if [ -f state/STATUS.md ]; then
+            cat state/STATUS.md >> "$GITHUB_STEP_SUMMARY"
+          else
+            printf '尚未生成进度记录，请查看前面步骤的错误。\n' >> "$GITHUB_STEP_SUMMARY"
+          fi

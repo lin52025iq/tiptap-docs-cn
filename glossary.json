@@ -1,0 +1,21 @@
+{
+  "Tiptap": "Tiptap",
+  "ProseMirror": "ProseMirror",
+  "Editor": "编辑器",
+  "headless": "无头",
+  "extension": "扩展",
+  "node": "节点",
+  "mark": "标记",
+  "schema": "Schema",
+  "Collaboration": "协作",
+  "Comments": "评论",
+  "Getting started": "入门指南",
+  "Overview": "概述",
+  "Guides": "指南",
+  "Examples": "示例",
+  "UI Components": "UI 组件",
+  "AI Toolkit": "AI 工具包",
+  "Snapshots": "快照",
+  "Tracked Changes": "修订跟踪",
+  "Composable Docs": "可组合文档"
+}
